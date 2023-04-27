@@ -13,7 +13,7 @@ const NameSegment = () => {
         Benjamin Donahue
       </h1>
       <p>
-        Frontend Web Developer
+        Fullstack Web Developer
       </p>
     </main>
   );
@@ -43,14 +43,9 @@ const NavBar = () => {
 };
 function App() {
   return (
-    <div>
+    <>
       <NavBar />
-      <Routes>
-        <Route path="/" element={<NameSegment />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-    </div>
+    </>
   );
 };
 
