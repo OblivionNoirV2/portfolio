@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route, Link } from 'react-router-dom';
 import './sparkles.css';
 import Contact from './contact';
 import About from './about';
@@ -29,10 +29,17 @@ const NavBar = () => {
     </main>
   );
 };
+//Navbar is always there, the rest changes 
 function App() {
   return (
     <>
-      <NameSegment />
+      <NavBar />
+      <Routes>
+        <Route path="/" element={<NameSegment />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </>
   );
 };
