@@ -4,20 +4,8 @@ import './sparkles.css';
 import Contact from './contact';
 import About from './about';
 import Projects from './projects';
-//import './index.css';
-//import Home from './Home';
-const NameSegment = () => {
-  return (
-    <main>
-      <h1>
-        Benjamin Donahue
-      </h1>
-      <p>
-        Fullstack Web Developer
-      </p>
-    </main>
-  );
-};
+import NameSegment from './home';
+
 //this will need to be rendered in a different location for mobile
 const NavBar = () => {
   return (
@@ -44,7 +32,7 @@ const NavBar = () => {
 function App() {
   return (
     <>
-      <NavBar />
+      <NameSegment />
     </>
   );
 };
