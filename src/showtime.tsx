@@ -11,7 +11,8 @@ const NavBar = () => {
   return (
     <main>
       <nav>
-        <ul>
+        <ul className='flex justify-end space-x-8 mr-12 mt-4 
+        text-xl text-slate-200'>
           <li>
             <Link to="/">Home</Link>
           </li>
