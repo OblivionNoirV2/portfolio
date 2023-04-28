@@ -12,7 +12,7 @@ const NavBar = () => {
     <main>
       <nav>
         <ul className='flex justify-end space-x-8 mr-12 mt-4 
-        text-xl text-slate-200'>
+        text-2xl text-slate-200'>
           <li>
             <Link to="/">Home</Link>
           </li>

@@ -24,3 +24,24 @@ nav {
   align-self: self-start;
 
 }
+
+li:hover:not(.no-hover) {
+  border-radius: 1rem;
+  background-color: rgba(2, 66, 176, 0.9);
+}
+
+li {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+/*blue outline thing*/
+.shadow-name {
+  box-shadow: 1rem 1rem rgba(0, 94, 255, 0.8),
+    1.2rem 1.2rem rgba(109, 109, 110, 0.6);
+}
+
+
+/*then put a cool shadow under the words*/
+main>ul>li {
+  text-shadow: 0.1rem 0.1rem 0.5rem rgba(0, 0, 0, 0.9);
+}
