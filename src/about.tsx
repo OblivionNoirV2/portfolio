@@ -42,22 +42,59 @@ const Photos = () => {
             <ul className="flex flex-col space-y-8 justify-center 
             m-auto py-7 px-7">
                 <li>
-                    <img src={require("./assets/nsls.jpeg")} alt="nsls nomination" />
+                    <figure>
+                        <img src={require("./assets/nsls.jpeg")}
+                            alt="nsls nomination" />
+                        <figcaption>Though I decided to switch to self-teaching
+                            for various reasons, I was nominated into NSLS while in college, and joined it.
+                        </figcaption>
+                    </figure>
                 </li>
                 <li>
-                    <img src={require("./assets/setup.jpeg")} alt="pc setup" />
+                    <figure>
+                        <img src={require("./assets/setup.jpeg")}
+                            alt="pc setup" />
+                        <figcaption>
+                            Where the magic happens
+                        </figcaption>
+                    </figure>
                 </li>
                 <li>
-                    <img src={require("./assets/pupper.jpeg")} alt="me and my dog" />
+                    <figure>
+                        <img src={require("./assets/pupper.jpeg")}
+                            alt="me and my dog" />
+                        <figcaption>
+                            One of my favorite pictures of one of my dogs and I
+                        </figcaption>
+                    </figure>
                 </li>
                 <li>
-                    <img src={require("./assets/guitar.jpeg")} alt="me playing guitar" />
+                    <figure>
+                        <img src={require("./assets/guitar.jpeg")}
+                            alt="me playing guitar" />
+                        <figcaption>
+                            Guitar, one of my favorite hobbies. (Yes, that's a 9 string - it's a metal thing &#x1f3b8;)
+                        </figcaption>
+                    </figure>
                 </li>
                 <li>
-                    <img src={require("./assets/tat.jpeg")} alt="my binary tattoo" />
+                    <figure>
+                        <img src={require("./assets/tat.jpeg")}
+                            alt="my binary tattoo" />
+                        <figcaption>
+                            My name in binary (shortened to "Ben")
+                        </figcaption>
+                    </figure>
                 </li>
                 <li>
-                    <img src={require("./assets/hobbes.jpeg")} alt="meeting terrance hobbes" />
+                    <figure>
+                        <img src={require("./assets/hobbes.jpeg")}
+                            alt="meeting terrance hobbes" />
+                        <figcaption>
+                            Meeting Terrance Hobbes, a legendary guitarist in the metal scene
+                        </figcaption>
+                    </figure>
+
                 </li>
             </ul>
         </main>
