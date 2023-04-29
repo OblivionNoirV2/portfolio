@@ -3,7 +3,9 @@
 @tailwind utilities;
 
 
-
+html {
+  overflow-y: auto;
+}
 
 body {
   background-image: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgb(109, 9, 121) 5%, rgb(0, 94, 255) 100%);
@@ -50,7 +52,7 @@ main:not(.not-shadow)>ul>li {
 }
 
 .link_:visited {
-  color: purple;
+  color: blue;
 }
 
 .link_:hover {
@@ -58,7 +60,5 @@ main:not(.not-shadow)>ul>li {
 }
 
 .link_:active {
-  color: blue;
+  color: red;
 }
-
-text {}
