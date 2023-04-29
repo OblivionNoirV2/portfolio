@@ -94,7 +94,15 @@ const Photos = () => {
                             Meeting Terrance Hobbes, a legendary guitarist in the metal scene
                         </figcaption>
                     </figure>
-
+                </li>
+                <li>
+                    <figure>
+                        <img src={require("./assets/firstcode.jpeg")}
+                            alt="my first ever program" />
+                        <figcaption>
+                            The first original program I ever wrote, a simple text based RPG battle game
+                        </figcaption>
+                    </figure>
                 </li>
             </ul>
         </main>
