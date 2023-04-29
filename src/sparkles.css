@@ -9,9 +9,9 @@ body {
   background-image: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgb(109, 9, 121) 5%, rgb(0, 94, 255) 100%);
 }
 
-.name-box,
-nav {
+html:not(.not-slate) {
   font-family: "Chivo Mono";
+  color: rgba(226, 232, 240, 0.8)
 }
 
 .name-box>li:nth-child(2n) {
@@ -40,12 +40,12 @@ li {
 
 
 /*then put a cool shadow under the words*/
-main>ul>li {
+main:not(.not-shadow)>ul>li {
   text-shadow: 0.2rem 0.2rem 0.5rem rgba(2, 66, 176, 0.9);
 }
 
 .link_ {
-  color: white;
+  color: grey;
   font-weight: bold;
 }
 
@@ -60,3 +60,5 @@ main>ul>li {
 .link_:active {
   color: blue;
 }
+
+text {}
