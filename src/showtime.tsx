@@ -13,16 +13,16 @@ const NavBar = () => {
       <nav>
         <ul className='flex justify-end space-x-8 mr-12 mt-4 
         text-2xl text-slate-200'>
-          <li>
+          <li className='add-hover'>
             <Link to="/">Home</Link>
           </li>
-          <li>
+          <li className='add-hover'>
             <Link to="/about">About Me</Link>
           </li>
-          <li>
+          <li className='add-hover'>
             <Link to="/projects">Projects</Link>
           </li>
-          <li>
+          <li className='add-hover'>
             <Link to="/contact">Contact</Link>
           </li>
         </ul>

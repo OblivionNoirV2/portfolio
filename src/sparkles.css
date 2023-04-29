@@ -23,7 +23,7 @@ nav {
 
 }
 
-li:hover:not(.no-hover) {
+.add-hover:hover {
   border-radius: 1rem;
   background-color: rgba(2, 66, 176, 0.9);
 }
@@ -42,4 +42,21 @@ li {
 /*then put a cool shadow under the words*/
 main>ul>li {
   text-shadow: 0.2rem 0.2rem 0.5rem rgba(2, 66, 176, 0.9);
+}
+
+.link_ {
+  color: white;
+  font-weight: bold;
+}
+
+.link_:visited {
+  color: purple;
+}
+
+.link_:hover {
+  color: hotpink;
+}
+
+.link_:active {
+  color: blue;
 }
