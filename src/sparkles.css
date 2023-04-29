@@ -16,8 +16,6 @@ nav {
 
 .name-box>li:nth-child(2n) {
   align-self: self-end;
-
-
 }
 
 .name-box>li:nth-child(2n+1) {
@@ -37,11 +35,11 @@ li {
 /*blue outline thing*/
 .shadow-name {
   box-shadow: 1rem 1rem rgba(0, 94, 255, 0.8),
-    1.2rem 1.2rem rgba(109, 109, 110, 0.6);
+    1.2rem 1.2rem rgba(226, 232, 240, 0.8);
 }
 
 
 /*then put a cool shadow under the words*/
 main>ul>li {
-  text-shadow: 0.1rem 0.1rem 0.5rem rgba(0, 0, 0, 0.9);
+  text-shadow: 0.2rem 0.2rem 0.5rem rgba(2, 66, 176, 0.9);
 }
