@@ -3,8 +3,8 @@ const About = () => {
     //make the h1 look really fancy 
     return (
         <>
-            <div className="flex min-w-full">
-                <section className='flex flex-col w-2/6 ml-36 pl-4 text-2xl 
+            <div className="flex w-full">
+                <section className='flex flex-col w-4/6 ml-36 pl-4 text-2xl 
         not-shadow leading-loose'>
                     <h1 className="flex justify-start text-5xl">Hi, I'm Ben</h1>
                     <p className="mt-8">
@@ -27,28 +27,41 @@ const About = () => {
                     </ol>
                 </section>
                 <section>
-
+                    <Photos />
                 </section>
             </div>
-            <Photos />
         </>
     );
 }
 //animated photo carousel, automatically scrolls at a timed interval
 //with short descriptions of each photo
-//don't forget the alt text!
+
 const Photos = () => {
     return (
-        <main className="photo-c-con w-2/5 bg-black flex ml-auto mr-24 -mt-[50rem]">
-            <div className="w-[60rem] flex flex-col space-y-8 justify-center m-auto py-7">
-                <img src={require("./assets/nsls.jpeg")} alt="nsls nomination" />
-                <img src={require("./assets/setup.jpeg")} alt="pc setup" />
-                <img src={require("./assets/pupper.jpeg")} alt="me and my dog" />
-                <img src={require("./assets/guitar.jpeg")} alt="me playing guitar" />
-                <img src={require("./assets/tat.jpeg")} alt="my binary tattoo" />
-                <img src={require("./assets/hobbes.jpeg")} alt="meeting terrance hobbes" />
-            </div>
+        <main className="photo-c-con w-2/5 bg-black flex ml-[48rem] mr-auto mt-12 h-[90vh] overflow-y-scroll ">
+            <ul className="flex flex-col space-y-8 justify-center 
+            m-auto py-7 px-7">
+                <li>
+                    <img src={require("./assets/nsls.jpeg")} alt="nsls nomination" />
+                </li>
+                <li>
+                    <img src={require("./assets/setup.jpeg")} alt="pc setup" />
+                </li>
+                <li>
+                    <img src={require("./assets/pupper.jpeg")} alt="me and my dog" />
+                </li>
+                <li>
+                    <img src={require("./assets/guitar.jpeg")} alt="me playing guitar" />
+                </li>
+                <li>
+                    <img src={require("./assets/tat.jpeg")} alt="my binary tattoo" />
+                </li>
+                <li>
+                    <img src={require("./assets/hobbes.jpeg")} alt="meeting terrance hobbes" />
+                </li>
+            </ul>
         </main>
     );
 }
+
 export default About;
