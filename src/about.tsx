@@ -8,7 +8,7 @@ const About = () => {
         not-shadow leading-loose'>
                     <h1 className="flex justify-start text-5xl">Hi, I'm Ben</h1>
                     <p className="mt-8">
-                        I'm a primarily self-taught Front End Web Developer with a strong passion for
+                        I'm a primarily self-taught Full Stack Web Developer with a strong passion for
                         computer science, programming and art. I don't yet have any
                         experience in the field, I but love what I do and am eager to learn
                         and build some awesome things!
@@ -16,14 +16,19 @@ const About = () => {
                     </p>
                     <h2 className="mt-6">Some other interests of mine include:</h2>
                     <ol className="space-y-2 mt-2">
-                        <li className="no-hover"><span className="text-4xl pr-0.5">&#9734;</span>Music: I play guitar and have been very passionate
-                            about all kinds of music ever since I was little.</li>
+                        <li className="no-hover"><span className="text-4xl pr-0.5">&#9734;</span>Music:
+                            I've been very passionate
+                            about all kinds of music ever since I was little and know quite a lot about it.</li>
                         <li className="no-hover"><span className="text-4xl pr-0.5">&#9734;</span>Gaming: Building a gaming PC is actually what created
                             an interest in computer science and brought me here!</li>
                         <li className="no-hover"><span className="text-4xl pr-0.5">&#9734;</span>Anything that makes you think. I'm very interested in psychology
                             and media that makes you use your head or tells a great story.
                             My penchant for that combined with my interest in artistry
-                            and creation made front end web a good fit for me.</li>
+                            and creation made both sides of web a good fit for me.</li>
+                        <li className="no-hover"><span className="text-4xl pr-0.5">&#9734;</span>
+                            Learning! I love just learning new things. I'm especially interested in psychology, computer science and languages.
+                            I've been learning Japanese for about 9 months, at the time of writing this.
+                        </li>
                     </ol>
                 </section>
                 <section>
@@ -70,15 +75,6 @@ const Photos = () => {
                 </li>
                 <li>
                     <figure>
-                        <img src={require("./assets/guitar.jpeg")}
-                            alt="me playing guitar" />
-                        <figcaption>
-                            Guitar, one of my favorite hobbies. (Yes, that's a 9 string - it's a metal thing &#x1f3b8;)
-                        </figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
                         <img src={require("./assets/tat.jpeg")}
                             alt="my binary tattoo" />
                         <figcaption>
@@ -88,19 +84,19 @@ const Photos = () => {
                 </li>
                 <li>
                     <figure>
-                        <img src={require("./assets/hobbes.jpeg")}
-                            alt="meeting terrance hobbes" />
+                        <img src={require("./assets/firstcode.jpeg")}
+                            alt="my first ever program" />
                         <figcaption>
-                            Meeting Terrance Hobbes, a legendary guitarist in the metal scene
+                            The first original program I ever wrote, a simple text based RPG battle game
                         </figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure>
-                        <img src={require("./assets/firstcode.jpeg")}
-                            alt="my first ever program" />
+                        <img src={require("./assets/catcode.jpeg")}
+                            alt="cat next to programming book" />
                         <figcaption>
-                            The first original program I ever wrote, a simple text based RPG battle game
+                            My genius secretary.
                         </figcaption>
                     </figure>
                 </li>
