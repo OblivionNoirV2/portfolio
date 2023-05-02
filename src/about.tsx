@@ -18,17 +18,13 @@ const About = () => {
                     <ol className="space-y-2 mt-2">
                         <li className="no-hover"><span className="text-4xl pr-0.5">&#9734;</span>Music:
                             I've been very passionate
-                            about all kinds of music ever since I was little and know quite a lot about it.</li>
+                            about all kinds of music ever since I was little and know quite a lot about it. I also produce it and have a site for it, (put site here)</li>
                         <li className="no-hover"><span className="text-4xl pr-0.5">&#9734;</span>Gaming: Building a gaming PC is actually what created
                             an interest in computer science and brought me here!</li>
                         <li className="no-hover"><span className="text-4xl pr-0.5">&#9734;</span>Anything that makes you think. I'm very interested in psychology
                             and media that makes you use your head or tells a great story.
                             My penchant for that combined with my interest in artistry
                             and creation made front end web a good fit for me.</li>
-                        <li className="no-hover"><span className="text-4xl pr-0.5">&#9734;</span>
-                            Learning! I love just learning new things. I'm especially interested in psychology, computer science and languages.
-                            I've been learning Japanese for about 9 months, at the time of writing this.
-                        </li>
                     </ol>
                 </section>
                 <section>
