@@ -25,6 +25,8 @@ const About = () => {
                             and media that makes you use your head or tells a great story.
                             My penchant for that combined with my interest in artistry
                             and creation made front end web a good fit for me.</li>
+                        <li className="no-hover"><span className="text-4xl pr-0.5">&#9734;</span>
+                            I've also been learning Japanese for about 9 months as of writing this, and really enjoying the process!</li>
                     </ol>
                 </section>
                 <section>
@@ -83,7 +85,8 @@ const Photos = () => {
                         <img src={require("./assets/firstcode.jpeg")}
                             alt="my first ever program" />
                         <figcaption>
-                            The first original program I ever wrote, a simple text based RPG battle game
+                            The first original program I ever wrote, a simple text based RPG battle game.
+                            Also see <a href="https://github.com/OblivionNoirV2/god_killer" target="blank_">this!</a>
                         </figcaption>
                     </figure>
                 </li>

@@ -46,19 +46,23 @@ main:not(.not-shadow)>ul>li {
   text-shadow: 0.2rem 0.2rem 0.5rem rgba(2, 66, 176, 0.9);
 }
 
-.link_ {
+.link_,
+a {
   color: grey;
   font-weight: bold;
 }
 
-.link_:visited {
+.link_:visited,
+a:visited {
   color: blue;
 }
 
-.link_:hover {
+.link_:hover,
+a:hover {
   color: hotpink;
 }
 
-.link_:active {
+.link_:active,
+a:active {
   color: red;
 }
