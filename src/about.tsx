@@ -10,7 +10,7 @@ const About = () => {
                     <p className="mt-8">
                         I'm a primarily self-taught Front End Web Developer with a strong passion for
                         computer science, programming and art. I don't yet have any
-                        experience in the field, I but love what I do and am eager to learn
+                        experience in the field, but I love what I do and am eager to learn
                         and build some awesome things!
                         You can see what I've built <Link to="/projects" className="link_">here</Link>.
                     </p>
