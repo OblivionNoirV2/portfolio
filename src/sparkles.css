@@ -48,7 +48,7 @@ main:not(.not-shadow)>ul>li {
 
 .link_,
 a {
-  color: grey;
+  color: white;
   font-weight: bold;
 }
 

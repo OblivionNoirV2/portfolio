@@ -3,7 +3,7 @@ import { Routes, Route, Link } from 'react-router-dom';
 import './sparkles.css';
 import Contact from './contact';
 import About from './about';
-import Projects from './projects';
+import TechAndProjects from './skills';
 import NameSegment from './home';
 
 //this will need to be rendered in a different location for mobile
@@ -20,7 +20,7 @@ const NavBar = () => {
             <Link to="/about">About Me</Link>
           </li>
           <li className='add-hover'>
-            <Link to="/projects">Projects</Link>
+            <Link to="/skills">Skills</Link>
           </li>
           <li className='add-hover'>
             <Link to="/contact">Contact</Link>
@@ -38,7 +38,7 @@ function App() {
       <Routes>
         <Route path="/" element={<NameSegment />} />
         <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
+        <Route path="/skills" element={<TechAndProjects />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </>

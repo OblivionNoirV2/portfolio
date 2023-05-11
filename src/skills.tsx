@@ -1,7 +1,12 @@
+//Similar thing to the photo carousel on the about page
 const Projects = () => {
+
+};
+
+const TechAndProjects = () => {
     return (
         <main className="flex w-full ml-36">
-            <div className="flex flex-col ">
+            <div className="flex flex-col">
                 <h1 className="text-3xl">Technologies I'm familiar with are the following:</h1>
 
                 <ul className="tech-li w-full flex-col space-y-8 text-3xl">
@@ -59,4 +64,4 @@ const Projects = () => {
         </main>
     )
 }
-export default Projects;
+export default TechAndProjects;
