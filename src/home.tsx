@@ -7,8 +7,8 @@ const NameSegment = () => {
         mt-12 text-zinc-200 max-w-md shadow-name pl-4 pt-4">
                 <li className="flex text-7xl self-start no-hover">Benjamin</li>
                 <li className="flex text-6xl no-hover">Donahue</li>
-                <li className="flex text-4xl no-hover">Front</li>
-                <li className="flex text-4xl no-hover">End</li>
+                <li className="flex text-4xl no-hover">Full</li>
+                <li className="flex text-4xl no-hover">Stack</li>
                 <li className="flex text-4xl no-hover">Web</li>
                 <li className="flex text-4xl no-hover">Developer</li>
             </ul>

@@ -66,3 +66,17 @@ a:hover {
 a:active {
   color: red;
 }
+
+.tech-li>li>img {
+  width: 3.5rem;
+  margin-left: 1rem;
+}
+
+/*flip it so the image is on the right*/
+.tech-li>li {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  font-size: x-large;
+  margin-top: 1rem;
+}
