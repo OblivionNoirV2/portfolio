@@ -1,6 +1,41 @@
 //Similar thing to the photo carousel on the about page
 const Projects = () => {
+    return (
+        <main className="project-c-con w-2/5 bg-black flex ml-[48rem] 
+        mr-auto mt-12 h-[90vh] overflow-y-scroll">
+            <ul className="flex flex-col space-y-8 justify-center 
+            m-auto py-7 px-7">
+                <li>
+                    <figure>
+                        <h1>Infinite Boss Battle</h1>
 
+                        <figcaption>
+                            The largest project I've done.
+                            A full stack 2D RPG turn based combat system with an evolving
+                            boss fight and over 20 different player actions.
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <h1>Imaginary Cyberpunk Marketplace</h1>
+
+                        <figcaption>
+                            A full stack cyberpunk-themed online shopping site.
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <h1>Music Theory Reference</h1>
+                        <figcaption>
+                            A small front end music theory reference site I made for myself. Very useful!
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </main>
+    );
 };
 
 const TechAndProjects = () => {
@@ -58,9 +93,11 @@ const TechAndProjects = () => {
                         Ruby (Desktop)
                         <img src={require("./assets/rubylogo.png")} />
                     </li>
-
                 </ul>
             </div>
+            <section>
+                <Projects />
+            </section>
         </main>
     )
 }
