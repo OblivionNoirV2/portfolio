@@ -17,11 +17,11 @@ html:not(.not-slate) {
 }
 
 .name-box>li:nth-child(2n) {
-  align-self: self-end;
+  align-self: flex-end;
 }
 
 .name-box>li:nth-child(2n+1) {
-  align-self: self-start;
+  align-self: flex-start;
 
 }
 
@@ -42,8 +42,13 @@ li {
 
 
 /*then put a cool shadow under the words*/
-main:not(.not-shadow)>ul>li {
+main:not(.not-shadow)>ul>li,
+.tech-col>ul>li {
   text-shadow: 0.2rem 0.2rem 0.5rem rgba(2, 66, 176, 0.9);
+}
+
+.not-shadow {
+  text-shadow: none;
 }
 
 .link_,
@@ -81,10 +86,16 @@ a:active {
   margin-top: 1rem;
 }
 
-.tech-li,
-.shadow-name {
+.tech-li {
   animation: box-glow 14s linear infinite;
   animation-iteration-count: infinite;
+}
+
+/*todo: make the text shadows here a gradient, blue to purple*/
+.shadow-name {
+  animation: box-glow-home 14s linear infinite;
+  animation-iteration-count: infinite;
+  text-shadow: 0.2rem 0.2rem 0.5rem rgba(2, 66, 176, 0.9);
 }
 
 .project-c-con>ul>li>figure>h1 {
@@ -128,6 +139,30 @@ a:active {
 
   75% {
     box-shadow: 1rem 1rem rgb(109,
+        9,
+        121);
+  }
+
+}
+
+@keyframes box-glow-home {
+
+  100%,
+
+  0% {
+    box-shadow: 2rem 2rem rgb(222, 222, 222);
+  }
+
+  25% {
+    box-shadow: 2rem 2rem rgb(0, 94, 255);
+  }
+
+  50% {
+    box-shadow: 2rem 2rem rgb(255, 105, 180);
+  }
+
+  75% {
+    box-shadow: 2rem 2rem rgb(109,
         9,
         121);
   }

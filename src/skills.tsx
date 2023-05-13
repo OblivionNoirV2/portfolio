@@ -46,7 +46,7 @@ const Projects = () => {
 const TechAndProjects = () => {
     return (
         <main className="flex w-full ml-36">
-            <div className="flex flex-col">
+            <div className="flex flex-col tech-col">
                 <h1 className="text-3xl">Technologies I'm familiar with:
                 </h1>
 
