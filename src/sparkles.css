@@ -16,14 +16,6 @@ html:not(.not-slate) {
   color: rgba(226, 232, 240, 0.8)
 }
 
-.name-box>li:nth-child(2n) {
-  align-self: flex-end;
-}
-
-.name-box>li:nth-child(2n+1) {
-  align-self: flex-start;
-
-}
 
 .add-hover:hover {
   border-radius: 1rem;
