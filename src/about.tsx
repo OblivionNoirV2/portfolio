@@ -8,7 +8,7 @@ const About = () => {
         not-shadow leading-loose'>
                     <h1 className="flex justify-start text-5xl">Hi, I'm Ben</h1>
                     <p className="mt-8">
-                        I'm a primarily self-taught software engineer, focusing on web dev, with a strong passion for
+                        I'm a primarily self-taught full stack web developer, with a strong passion for
                         computer science, programming and art. I don't yet have any
                         experience in the field, but I love what I do and am eager to learn
                         and build some awesome things!
@@ -22,7 +22,8 @@ const About = () => {
                         <li className="no-hover"><span className="text-4xl pr-0.5">&#9734;</span>Gaming: Building a gaming PC is actually what created
                             an interest in computer science and brought me here!</li>
                         <li className="no-hover"><span className="text-4xl pr-0.5">&#9734;</span>
-                            I've also been learning Japanese for about 9 months as of writing this, and really enjoying the process!</li>
+                            I've also been learning Japanese for about 9 months as of writing this, and really enjoying the
+                            process! I love learning new things and can see myself learning other languages in the distant future.</li>
                     </ol>
                 </section>
                 <section>

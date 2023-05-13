@@ -1,18 +1,22 @@
-//Similar thing to the photo carousel on the about page
+
+//Put a little grid of images for each of these
 const Projects = () => {
     return (
-        <main className="project-c-con w-2/5 bg-black flex ml-[48rem] 
+        <main className="project-c-con w-2/5 flex flex-col ml-[48rem] 
         mr-auto mt-12 h-[90vh] overflow-y-scroll">
-            <ul className="flex flex-col space-y-8 justify-center 
-            m-auto py-7 px-7">
+            <h1 className="text-5xl flex justify-center mx-auto proj-title">
+                Projects
+            </h1>
+            <ul className="proj-ul flex flex-col space-y-8 justify-center 
+            mx-auto px-7 mt-4 rounded-xl">
                 <li>
                     <figure>
                         <h1>Infinite Boss Battle</h1>
-
                         <figcaption>
                             The largest project I've done.
                             A full stack 2D RPG turn based combat system with an evolving
-                            boss fight and over 20 different player actions.
+                            boss fight and over 20 different player actions. It keeps a score and
+                            stores it in a database, which you can then compare to others.
                         </figcaption>
                     </figure>
                 </li>
@@ -38,13 +42,16 @@ const Projects = () => {
     );
 };
 
+
 const TechAndProjects = () => {
     return (
         <main className="flex w-full ml-36">
             <div className="flex flex-col">
-                <h1 className="text-3xl">Technologies I'm familiar with are the following:</h1>
+                <h1 className="text-3xl">Technologies I'm familiar with:
+                </h1>
 
-                <ul className="tech-li w-full flex-col space-y-8 text-3xl">
+                <ul className="tech-li w-full flex-col space-y-8 text-3xl
+                rounded-xl">
                     <li>
                         <span className="text-4xl pr-0.5">&#9734;</span>
                         HTML

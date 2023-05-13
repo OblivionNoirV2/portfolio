@@ -36,8 +36,8 @@ li {
 
 /*blue outline thing*/
 .shadow-name {
-  box-shadow: 1rem 1rem rgba(0, 94, 255, 0.8),
-    1.2rem 1.2rem rgba(226, 232, 240, 0.8);
+  /*box-shadow: 1rem 1rem rgba(0, 94, 255, 0.8),
+    1.2rem 1.2rem rgba(226, 232, 240, 0.8);*/
 }
 
 
@@ -79,4 +79,56 @@ a:active {
   width: fit-content;
   font-size: x-large;
   margin-top: 1rem;
+}
+
+.tech-li,
+.shadow-name {
+  animation: box-glow 14s linear infinite;
+  animation-iteration-count: infinite;
+}
+
+.project-c-con>ul>li>figure>h1 {
+  font-size: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+}
+
+.project-c-con>ul>li>figure>figcaption {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 1rem auto auto auto;
+}
+
+.proj-ul {
+  background: linear-gradient(90deg, rgba(109, 9, 121, 0.5) 0%,
+      rgba(2, 66, 176, 0.7) 100%);
+
+}
+
+
+@keyframes box-glow {
+
+  100%,
+
+  0% {
+    box-shadow: 1rem 1rem rgb(222, 222, 222);
+  }
+
+  25% {
+    box-shadow: 1rem 1rem rgb(0, 94, 255);
+  }
+
+  50% {
+    box-shadow: 1rem 1rem rgb(255, 105, 180);
+  }
+
+  75% {
+    box-shadow: 1rem 1rem rgb(109,
+        9,
+        121);
+  }
+
 }
