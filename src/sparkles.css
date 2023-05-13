@@ -102,7 +102,8 @@ a:active {
   margin: 1rem auto auto auto;
 }
 
-.proj-ul {
+.proj-ul,
+.photo-c-con {
   background: linear-gradient(90deg, rgba(109, 9, 121, 0.5) 0%,
       rgba(2, 66, 176, 0.7) 100%);
 

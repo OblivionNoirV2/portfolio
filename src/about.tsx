@@ -38,7 +38,7 @@ const About = () => {
 
 const Photos = () => {
     return (
-        <main className="photo-c-con w-2/5 bg-black flex ml-[48rem] mr-auto 
+        <main className="photo-c-con rounded-xl w-2/5 flex ml-[48rem] mr-auto 
         mt-12 h-[90vh] overflow-y-scroll ">
             <ul className="flex flex-col space-y-8 justify-center 
             m-auto py-7 px-7">
