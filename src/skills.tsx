@@ -15,7 +15,7 @@ const Projects = () => {
                         <figcaption>
                             The largest project I've done.
                             A full stack 2D RPG turn based combat system with an evolving
-                            boss fight and over 20 different player actions. It keeps a score and
+                            boss fight and over 20 different player actions that runs in the browser. It keeps a score and
                             stores it in a database, which you can then compare to others.
                         </figcaption>
                     </figure>
@@ -25,7 +25,7 @@ const Projects = () => {
                         <h1>Imaginary Cyberpunk Marketplace</h1>
 
                         <figcaption>
-                            A full stack cyberpunk-themed online shopping site.
+                            A full stack imaginary cyberpunk-themed online shopping site.
                         </figcaption>
                     </figure>
                 </li>
@@ -34,6 +34,16 @@ const Projects = () => {
                         <h1>Music Theory Reference</h1>
                         <figcaption>
                             A small front end music theory reference site I made for myself. Very useful!
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <h1>BetterPass</h1>
+                        <figcaption>
+                            A multi-parameter CLI password generator for websites that uses
+                            real dictionary words combined with options you choose to
+                            create secure passwords that aren't impossible to remember.
                         </figcaption>
                     </figure>
                 </li>
