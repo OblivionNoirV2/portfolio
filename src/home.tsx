@@ -4,7 +4,7 @@ const ShortDesc = () => {
     return (
         <section className="w-5/12 flex shadow-name mt-24 rounded-r-xl">
             <p className="text-2xl ml-16 mr-8 mb-8 leading-normal">
-                I'm a full stack web developer with a passion for
+                I'm a front end web developer with a passion for
                 learning and creating. I have a love for creation and
                 being a part of modern technology, and testing the limits
                 of what we as programmers can create. During my lifetime I hope
@@ -33,12 +33,12 @@ const NameSegment = () => {
                     </div>
                     <div className="transform translate-y-[6vw]">
                         <li className="flex text-[2vw] no-hover">
-                            Full
+                            Front
                         </li>
                     </div>
                     <div className="transform translate-y-[8vw]">
                         <li className="flex text-[2vw] no-hover">
-                            Stack
+                            End
                         </li>
                     </div>
                     <div className="transform translate-y-[10vw]">

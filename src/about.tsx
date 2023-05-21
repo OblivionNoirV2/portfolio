@@ -8,8 +8,8 @@ const About = () => {
         not-shadow leading-loose'>
                     <h1 className="flex justify-start text-5xl">Hi, I'm Ben</h1>
                     <p className="mt-8">
-                        I'm a primarily self-taught full stack web developer, with a strong passion for
-                        computer science, programming and art. I don't yet have any
+                        I'm a primarily self-taught front end web developer, with a strong passion for
+                        computer science, programming and art. I pride myself on my imagination and creativity, which I hope is visible in my projects. I don't yet have any
                         experience in the field, but I love what I do and am eager to learn
                         and build some awesome things!
                         You can see what I've built <Link to="/projects" className="link_">here</Link>.
