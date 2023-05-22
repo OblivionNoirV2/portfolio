@@ -8,10 +8,9 @@ const About = () => {
         not-shadow leading-loose'>
                     <h1 className="flex justify-start text-5xl">Hi, I'm Ben</h1>
                     <p className="mt-8">
-                        I'm a primarily self-taught front end web developer, with a strong passion for
-                        computer science, programming and art. I pride myself on my imagination and creativity, which I hope is visible in my projects. I don't yet have any
+                        I'm a primarily self-taught front end web developer. I pride myself on my imagination and creativity, which I hope is visible in my projects. I don't yet have any
                         experience in the field, but I love what I do and am eager to learn
-                        and build some awesome things!
+                        and build some awesome things! I'm also very interested in learning back end development, but the focus is front for now.
                         You can see what I've built <Link to="/projects" className="link_">here</Link>.
                     </p>
                     <h2 className="mt-6">Some other interests of mine include:</h2>
@@ -20,7 +19,7 @@ const About = () => {
                             I've been very passionate
                             about all kinds of music ever since I was little and know quite a lot about it. I also produce it occasionally.</li>
                         <li className="no-hover"><span className="text-4xl pr-0.5">&#9734;</span>Gaming: Building a gaming PC is actually what created
-                            an interest in computer science and brought me here!</li>
+                            an interest in computer science and brought me here! </li>
                         <li className="no-hover"><span className="text-4xl pr-0.5">&#9734;</span>
                             I've also been learning Japanese for about 9 months as of writing this, and really enjoying the
                             process! I love learning new things and can see myself learning other languages in the distant future.</li>

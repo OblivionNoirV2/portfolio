@@ -14,18 +14,16 @@ const Projects = () => {
                         <h1>Infinite Boss Battle</h1>
                         <figcaption>
                             The largest project I've done.
-                            A full stack 2D RPG turn based combat system with an evolving
-                            boss fight and over 20 different player actions that runs in the browser. It keeps a score and
-                            stores it in a database, which you can then compare to others.
+                            A 2D RPG turn based combat system with an evolving
+                            boss fight and over 20 different player actions that runs in the browser. It gives you a performance score at the end.
                         </figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure>
-                        <h1>Imaginary Cyberpunk Marketplace</h1>
-
+                        <h1>NeonNights</h1>
                         <figcaption>
-                            A full stack imaginary cyberpunk-themed online shopping site.
+                            An imaginary cyberpunk-themed online shopping site.
                         </figcaption>
                     </figure>
                 </li>
@@ -94,21 +92,6 @@ const TechAndProjects = () => {
                         <span className="text-4xl pr-0.5">&#9734;</span>
                         React JS/TS
                         <img src={require("./assets/reactlogo.png")} />
-                    </li>
-                    <li>
-                        <span className="text-4xl pr-0.5">&#9734;</span>
-                        Node JS/TS
-                        <img src={require("./assets/nodejslogo.png")} />
-                    </li>
-                    <li>
-                        <span className="text-4xl pr-0.5">&#9734;</span>
-                        MySQL
-                        <img src={require("./assets/mysqllogo.png")} />
-                    </li>
-                    <li>
-                        <span className="text-4xl pr-0.5">&#9734;</span>
-                        Ruby (Desktop)
-                        <img src={require("./assets/rubylogo.png")} />
                     </li>
                 </ul>
             </div>
