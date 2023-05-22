@@ -15,7 +15,8 @@ const Projects = () => {
                         <figcaption>
                             The largest project I've done.
                             A 2D RPG turn based combat system with an evolving
-                            boss fight and over 20 different player actions that runs in the browser. It gives you a performance score at the end.
+                            boss fight and over 20 different player actions that runs in the browser.
+                            It also gives you a performance score at the end.
                         </figcaption>
                     </figure>
                 </li>
@@ -54,44 +55,45 @@ const Projects = () => {
 const TechAndProjects = () => {
     return (
         <main className="flex w-full ml-36">
-            <div className="flex flex-col tech-col">
+            <div className="flex flex-col tech-col -ml-4">
                 <h1 className="text-3xl">Technologies I'm familiar with:
                 </h1>
 
                 <ul className="tech-li w-full flex-col space-y-8 text-3xl
-                rounded-xl">
+                rounded-xl " >
                     <li>
-                        <span className="text-4xl pr-0.5">&#9734;</span>
+                        <span className="text-5xl pr-[1rem] ">&#9734;</span>
                         HTML
                         <img src={require("./assets/htmllogo.png")} />
                     </li>
                     <li>
-                        <span className="text-4xl pr-0.5">&#9734;</span>
+                        <span className="text-5xl pr-[1rem]">&#9734;</span>
                         CSS
                         <img src={require("./assets/csslogo.png")} />
                     </li>
                     <li>
-                        <span className="text-4xl pr-0.5">&#9734;</span>
+                        <span className="text-5xl pr-[1rem]">&#9734;</span>
                         Tailwind CSS
                         <img src={require("./assets/tailwindlogo.png")} />
                     </li>
                     <li>
-                        <span className="text-4xl pr-0.5">&#9734;</span>
+                        <span className="text-5xl pr-[1rem]">&#9734;</span>
                         Javascript
                         <img src={require("./assets/jslogo.png")}
                             alt="javascript logo"
                         />
                     </li>
                     <li>
-                        <span className="text-4xl pr-0.5">&#9734;</span>
+                        <span className="text-5xl pr-[1rem]">&#9734;</span>
                         Typescript
                         <img src={require("./assets/tslogo.png")}
                             alt="typescript logo" />
                     </li>
                     <li>
-                        <span className="text-4xl pr-0.5">&#9734;</span>
+                        <span className="text-5xl pr-[1rem] mb-4">&#9734;</span>
                         React JS/TS
-                        <img src={require("./assets/reactlogo.png")} />
+                        <img src={require("./assets/reactlogo.png")}
+                            className="mb-4" />
                     </li>
                 </ul>
             </div>
