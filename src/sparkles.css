@@ -27,23 +27,15 @@ li {
   padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
-
-
-
-/*then put a cool shadow under the words*/
-
-
-
-
 .link_,
 a {
-  color: rgb(2, 66, 176);
+  color: white;
   font-weight: bold;
 }
 
 .link_:visited,
 a:visited {
-  color: white;
+  color: rgb(2, 66, 176);
 }
 
 .link_:hover,
@@ -96,49 +88,22 @@ a:active {
 
 
 
-@keyframes box-glow {
 
-  100%,
-
-  0% {
-    box-shadow: 1rem 1rem rgb(222, 222, 222);
-  }
-
-  50% {
-    box-shadow: 1rem 1rem rgb(103, 201, 253);
-  }
-
-  75% {
-    box-shadow: 1rem 1rem rgb(92, 150, 250);
-  }
-
-}
-
-@keyframes box-glow-home {
-
-  100%,
-
-  0% {
-    box-shadow: 2rem 2rem rgb(222, 222, 222);
-  }
-
-  25% {
-    box-shadow: 2rem 2rem rgb(0, 94, 255);
-  }
-
-  75% {
-    box-shadow: 2rem 2rem rgb(5, 2, 44);
-  }
-
-}
-
-.glass {
+.glass-photos {
   background-color: rgba(255, 255, 255, .15);
   backdrop-filter: blur(1rem);
   box-shadow: -1rem 0 1rem inset rgba(255, 255, 255, .6),
     1rem 0 1rem rgba(0, 0, 0, .4);
 }
 
+.glass {
+  background-color: rgba(255, 255, 255, .15);
+  backdrop-filter: blur(1rem);
+  box-shadow:
+    -1rem -1rem .5rem inset rgba(255, 255, 255, .6),
+    1rem 1rem .5rem rgba(0, 0, 0, .4);
+
+}
 
 
 .glass-nav {
