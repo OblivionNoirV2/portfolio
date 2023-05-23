@@ -2,7 +2,7 @@
 import { Link } from "react-router-dom";
 const GlassNavBar = () => {
     return (
-        <nav className='glass text-2xl w-1/4 justify-end ml-auto rounded-bl-xl sticky top-0'>
+        <nav className='glass-nav text-2xl w-1/4 justify-end ml-auto rounded-bl-xl sticky top-0'>
             <ul className=' flex flex-row justify-end '>
 
                 <li className='add-hover my-2'>

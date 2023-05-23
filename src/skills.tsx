@@ -5,8 +5,9 @@ import GlassNavBar from "./GlassNav";
 const Projects = () => {
     return (
         <main className="glass w-2/5 flex flex-col ml-[48rem] 
-        mr-auto mt-12 h-[90vh] overflow-y-scroll">
-            <h1 className="text-5xl flex justify-center mx-auto proj-title">
+        mr-auto mt-12 h-[90vh] overflow-y-scroll   rounded-tr-2xl rounded-br-2xl rounded-bl-2xl">
+            <h1 className="text-5xl flex justify-center mx-auto 
+            proj-title">
                 Projects
             </h1>
             <ul className="proj-ul flex flex-col space-y-8 justify-center 
@@ -56,8 +57,9 @@ const Projects = () => {
 
 const TechAndProjects = () => {
     return (
-        <main className="flex w-full ml-36">
-            <div className="flex flex-col tech-col -ml-4">
+        <main className="flex w-full ml-36 ">
+            <div className="flex flex-col glass -ml-4 h-full p-6 
+            rounded-tr-2xl rounded-br-2xl rounded-bl-2xl">
                 <h1 className="text-3xl">Technologies I'm familiar with:
                 </h1>
 

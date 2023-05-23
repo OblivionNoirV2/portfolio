@@ -1,4 +1,14 @@
 import { Link } from "react-router-dom";
+//calculates approximate months since 8/9/2022
+function calculateTime(): number {
+    const current_date = new Date();
+    const previous_date = new Date("2022-08-09");
+    const one_month = 1000 * 60 * 60 * 24 * 30; //milliseconds in one month
+    const difference_in_milliseconds = current_date.getTime() - previous_date.getTime();
+
+    return Math.floor(difference_in_milliseconds / one_month);
+}
+
 const About = () => {
     //make the h1 look really fancy 
     return (
@@ -15,13 +25,22 @@ const About = () => {
                     </p>
                     <h2 className="mt-6">Some other interests of mine include:</h2>
                     <ol className="space-y-2 mt-2">
-                        <li className="no-hover"><span className="text-4xl pr-0.5">&#9734;</span>Music:
+                        <li className="no-hover">
+                            <span className="text-4xl pr-0.5">
+                                &#10052;
+                            </span>Music:
                             I've been very passionate
                             about all kinds of music ever since I was little and know quite a lot about it. I also produce it sometimes.</li>
-                        <li className="no-hover"><span className="text-4xl pr-0.5">&#9734;</span>Gaming: Building a gaming PC is actually what created
+                        <li className="no-hover">
+                            <span className="text-4xl pr-0.5">
+                                &#10052;
+                            </span>Gaming: Building a gaming PC is actually what created
                             an interest in computer science and brought me here! </li>
-                        <li className="no-hover"><span className="text-4xl pr-0.5">&#9734;</span>
-                            I've also been learning Japanese for about 9 months as of writing this, and really enjoying the
+                        <li className="no-hover">
+                            <span className="text-4xl pr-0.5">
+                                &#10052;
+                            </span>
+                            I've also been learning Japanese for about {calculateTime()} months as of writing this, and really enjoying the
                             process! I love learning new things and can see myself learning other languages in the distant future.</li>
                     </ol>
                 </section>
