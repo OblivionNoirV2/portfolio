@@ -44,7 +44,8 @@ const Photos = () => {
                 <li>
                     <figure>
                         <img src={require("./assets/nsls.jpeg")}
-                            alt="nsls nomination" />
+                            alt="nsls nomination"
+                            className="rounded-xl" />
                         <figcaption>Though I decided to switch to self-teaching
                             for various reasons, I was nominated into NSLS while in college, and joined it.
                         </figcaption>
@@ -53,7 +54,8 @@ const Photos = () => {
                 <li>
                     <figure>
                         <img src={require("./assets/setup.jpeg")}
-                            alt="pc setup" />
+                            alt="pc setup"
+                            className="rounded-xl" />
                         <figcaption>
                             Where the magic happens
                         </figcaption>
@@ -62,7 +64,8 @@ const Photos = () => {
                 <li>
                     <figure>
                         <img src={require("./assets/pupper.jpeg")}
-                            alt="me and my dog" />
+                            alt="me and my dog"
+                            className="rounded-xl" />
                         <figcaption>
                             One of my favorite pictures of one of my dogs and I
                         </figcaption>
@@ -71,7 +74,8 @@ const Photos = () => {
                 <li>
                     <figure>
                         <img src={require("./assets/tat.jpeg")}
-                            alt="my binary tattoo" />
+                            alt="my binary tattoo"
+                            className="rounded-xl" />
                         <figcaption>
                             My name in binary (shortened to "Ben")
                         </figcaption>
@@ -80,7 +84,8 @@ const Photos = () => {
                 <li>
                     <figure>
                         <img src={require("./assets/firstcode.jpeg")}
-                            alt="my first ever program" />
+                            alt="my first ever program"
+                            className="rounded-xl" />
                         <figcaption>
                             The first original program I ever wrote, a simple text based RPG battle game.
                             Also see <a href="https://github.com/OblivionNoirV2/god_killer" target="blank_">this!</a>
@@ -90,7 +95,8 @@ const Photos = () => {
                 <li>
                     <figure>
                         <img src={require("./assets/catcode.jpeg")}
-                            alt="cat next to programming book" />
+                            alt="cat next to programming book"
+                            className="rounded-xl" />
                         <figcaption>
                             My genius secretary.
                         </figcaption>

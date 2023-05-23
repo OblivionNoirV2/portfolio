@@ -64,35 +64,35 @@ const TechAndProjects = () => {
                 <ul className="tech-li w-full flex-col space-y-8 text-3xl
                 rounded-xl " >
                     <li>
-                        <span className="text-5xl pr-[1rem] ">&#9734;</span>
+                        <span className="text-5xl pr-[1rem] ">&#10052;</span>
                         HTML
                         <img src={require("./assets/htmllogo.png")} />
                     </li>
                     <li>
-                        <span className="text-5xl pr-[1rem]">&#9734;</span>
+                        <span className="text-5xl pr-[1rem]">&#10052;</span>
                         CSS
                         <img src={require("./assets/csslogo.png")} />
                     </li>
                     <li>
-                        <span className="text-5xl pr-[1rem]">&#9734;</span>
+                        <span className="text-5xl pr-[1rem]">&#10052;</span>
                         Tailwind CSS
                         <img src={require("./assets/tailwindlogo.png")} />
                     </li>
                     <li>
-                        <span className="text-5xl pr-[1rem]">&#9734;</span>
+                        <span className="text-5xl pr-[1rem]">&#10052;</span>
                         Javascript
                         <img src={require("./assets/jslogo.png")}
                             alt="javascript logo"
                         />
                     </li>
                     <li>
-                        <span className="text-5xl pr-[1rem]">&#9734;</span>
+                        <span className="text-5xl pr-[1rem]">&#10052;</span>
                         Typescript
                         <img src={require("./assets/tslogo.png")}
                             alt="typescript logo" />
                     </li>
                     <li>
-                        <span className="text-5xl pr-[1rem] mb-4">&#9734;</span>
+                        <span className="text-5xl pr-[1rem] mb-4">&#10052;</span>
                         React JS/TS
                         <img src={require("./assets/reactlogo.png")}
                             className="mb-4" />

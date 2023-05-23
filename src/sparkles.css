@@ -71,18 +71,14 @@ a:active {
 }
 
 .tech-li {
-  animation: box-glow 14s linear infinite;
+  animation: box-glow 20s linear infinite;
   animation-iteration-count: infinite;
   margin-right: -1rem;
 
 }
 
 
-.shadow-name {
-  animation: box-glow-home 14s linear infinite;
-  animation-iteration-count: infinite;
 
-}
 
 .project-c-con>ul>li>figure>h1 {
   font-size: 2rem;
@@ -110,7 +106,11 @@ a:active {
   }
 
   50% {
-    box-shadow: 1rem 1rem rgb(2, 66, 176);
+    box-shadow: 1rem 1rem rgb(103, 201, 253);
+  }
+
+  75% {
+    box-shadow: 1rem 1rem rgb(92, 150, 250);
   }
 
 }
@@ -144,4 +144,8 @@ a:active {
 
 .snowflake {
   opacity: 0.5;
+}
+
+figcaption {
+  margin: 1rem 0 1rem 0;
 }
