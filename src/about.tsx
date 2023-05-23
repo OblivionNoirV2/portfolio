@@ -30,18 +30,13 @@ const About = () => {
                                 &#10052;
                             </span>Music:
                             I've been very passionate
-                            about all kinds of music ever since I was little and know quite a lot about it. I also produce it sometimes.</li>
+                            about all kinds of music ever since I was little and know quite a lot about it. I also produce it and play guitar.</li>
                         <li className="no-hover">
                             <span className="text-4xl pr-0.5">
                                 &#10052;
                             </span>Gaming: Building a gaming PC is actually what created
-                            an interest in computer science and brought me here! </li>
-                        <li className="no-hover">
-                            <span className="text-4xl pr-0.5">
-                                &#10052;
-                            </span>
-                            I've also been learning Japanese for about {calculateTime()} months as of writing this, and really enjoying the
-                            process! I love learning new things and can see myself learning other languages in the distant future.</li>
+                            an interest in computer science and brought me here!
+                        </li>
                     </ol>
                 </section>
                 <section>
@@ -75,6 +70,16 @@ const Photos = () => {
                             className="rounded-xl" />
                         <figcaption>
                             Where the magic happens
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src={require("./assets/akatsuki.jpeg")}
+                            alt="guitar"
+                            className="rounded-xl" />
+                        <figcaption>
+                            My beloved guitar. Yes, that's a 9 string. It's a metal thing.
                         </figcaption>
                     </figure>
                 </li>
