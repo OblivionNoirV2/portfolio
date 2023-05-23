@@ -48,7 +48,7 @@ const Projects = () => {
 };
 
 
-const TechAndProjects = () => {
+const TechSkills = () => {
     return (
         <main className="flex w-full ml-36 ">
             <div className="flex flex-col glass -ml-4 h-full p-6 
@@ -94,10 +94,7 @@ const TechAndProjects = () => {
                     </li>
                 </ul>
             </div>
-            <section>
-                <Projects />
-            </section>
         </main>
     )
 }
-export default TechAndProjects;
+export default TechSkills;
