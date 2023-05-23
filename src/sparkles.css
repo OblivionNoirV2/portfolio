@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  background-image: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgb(2, 7, 50) 5%, rgb(0, 94, 255) 100%);
+  background-image: linear-gradient(90deg, rgb(153, 218, 250) 0%, rgb(103, 201, 253) 5%, rgb(92, 150, 250) 100%);
 }
 
 html:not(.not-slate) {
@@ -26,11 +26,7 @@ li {
   padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
-/*blue outline thing*/
-.shadow-name {
-  /*box-shadow: 1rem 1rem rgba(0, 94, 255, 0.8),
-    1.2rem 1.2rem rgba(226, 232, 240, 0.8);*/
-}
+
 
 
 /*then put a cool shadow under the words*/
@@ -141,5 +137,14 @@ a:active {
   75% {
     box-shadow: 2rem 2rem rgb(5, 2, 44);
   }
+
+}
+
+.glass {
+
+
+  background-color: rgba(255, 255, 255, .15);
+
+  backdrop-filter: blur(5px);
 
 }
