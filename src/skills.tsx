@@ -21,6 +21,7 @@ const Projects = () => {
                             boss fight and over 20 different player actions that runs in the browser.
                             It also gives you a performance score at the end.
                         </figcaption>
+                        image goes here
                     </figure>
                 </li>
                 <li>
@@ -29,24 +30,16 @@ const Projects = () => {
                         <figcaption>
                             An imaginary cyberpunk-themed online shopping site.
                         </figcaption>
+                        image goes here
                     </figure>
                 </li>
                 <li>
                     <figure>
-                        <h1>Music Theory Reference</h1>
+                        <h1>some third project</h1>
                         <figcaption>
-                            A small front end music theory reference site I made for myself. Very useful!
+                            some third project description
                         </figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <h1>BetterPass</h1>
-                        <figcaption>
-                            A multi-parameter CLI password generator for websites that uses
-                            real dictionary words combined with options you choose to
-                            create secure passwords that aren't impossible to remember.
-                        </figcaption>
+                        image goes here
                     </figure>
                 </li>
             </ul>
@@ -59,7 +52,7 @@ const TechAndProjects = () => {
     return (
         <main className="flex w-full ml-36 ">
             <div className="flex flex-col glass -ml-4 h-full p-6 
-            rounded-tr-2xl rounded-br-2xl rounded-bl-2xl">
+            rounded-tr-2xl rounded-br-2xl rounded-bl-2xl mt-12">
                 <h1 className="text-3xl">Technologies I'm familiar with:
                 </h1>
 

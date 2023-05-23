@@ -51,12 +51,10 @@ const About = () => {
         </>
     );
 }
-//animated photo carousel, automatically scrolls at a timed interval
-//with short descriptions of each photo
 
 const Photos = () => {
     return (
-        <main className="glass rounded-xl w-2/5 flex ml-[48rem] mr-auto 
+        <main className="glass rounded-xl w-2/5 flex ml-[48rem]  
         mt-12 h-[90vh] overflow-y-scroll sticky top-20 ">
             <ul className="flex flex-col space-y-8 justify-center 
             m-auto py-7 px-7 text-3xl">
