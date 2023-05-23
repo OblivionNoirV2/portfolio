@@ -1,8 +1,10 @@
 
 //Put a little grid of images for each of these
+import GlassNavBar from "./GlassNav";
+
 const Projects = () => {
     return (
-        <main className="project-c-con w-2/5 flex flex-col ml-[48rem] 
+        <main className="glass w-2/5 flex flex-col ml-[48rem] 
         mr-auto mt-12 h-[90vh] overflow-y-scroll">
             <h1 className="text-5xl flex justify-center mx-auto proj-title">
                 Projects

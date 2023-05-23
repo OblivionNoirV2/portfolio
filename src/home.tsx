@@ -6,18 +6,29 @@ const GlassMenu = () => {
         <nav className='glass text-5xl rounded-2xl'>
             <ul className=' flex flex-col items-center '>
 
-                <li className='add-hover mr-64 pt-12'>
+                <li className='add-hover mr-64 py-6 mx-6 mt-4'>
                     <Link to="/">Home</Link>
                 </li>
-
-                <li className='add-hover ml-64 pt-12'>
-                    <Link to="/about">About Me</Link>
+                <li className="snowflake">
+                    &#10052;
                 </li>
-                <li className='add-hover mr-64 pt-12'>
+                <li className='add-hover ml-64 py-6 mx-6 mt-4'>
+                    <Link to="/about">About</Link>
+                </li>
+                <li className="snowflake">
+                    &#10052;
+                </li>
+                <li className='add-hover mr-64 py-6 mx-6 mt-4'>
                     <Link to="/skills">Skills</Link>
                 </li>
-                <li className='add-hover ml-64 pt-12'>
+                <li className="snowflake">
+                    &#10052;
+                </li>
+                <li className='add-hover ml-64 py-6 mx-6 mt-4'>
                     <Link to="/contact">Contact</Link>
+                </li>
+                <li className="snowflake">
+                    &#10052;
                 </li>
             </ul>
         </nav>
@@ -33,12 +44,11 @@ const NameSegment = () => {
 
             <div className="flex flex-col items-start ml-64">
                 <h1 className="text-7xl">Welcome to my site</h1>
-                <p className="mt-8 w-full">
+                <section className="mt-8 w-full">
                     <ShortDesc />
-                </p>
+                </section>
             </div>
-
-            <section className=" w-1/2">
+            <section className=" w-full">
                 <GlassMenu />
             </section>
 

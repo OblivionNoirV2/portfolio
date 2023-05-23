@@ -8,7 +8,7 @@ const About = () => {
         not-shadow leading-loose'>
                     <h1 className="flex justify-start text-5xl">Hi, I'm Ben</h1>
                     <p className="mt-8">
-                        I'm a primarily self-taught front end web developer. I pride myself on my imagination and creativity, which I hope is visible in my projects. I don't yet have any
+                        I am a primarily self-taught front end web developer. I pride myself on my imagination and creativity, which I hope is visible in my projects. I don't yet have any
                         experience in the field, but I love what I do and am eager to learn
                         and build some awesome things! I'm also very interested in learning back end development, but the focus is front for now.
                         You can see what I've built <Link to="/projects" className="link_">here</Link>.
@@ -17,7 +17,7 @@ const About = () => {
                     <ol className="space-y-2 mt-2">
                         <li className="no-hover"><span className="text-4xl pr-0.5">&#9734;</span>Music:
                             I've been very passionate
-                            about all kinds of music ever since I was little and know quite a lot about it. I also produce it occasionally.</li>
+                            about all kinds of music ever since I was little and know quite a lot about it. I also produce it sometimes.</li>
                         <li className="no-hover"><span className="text-4xl pr-0.5">&#9734;</span>Gaming: Building a gaming PC is actually what created
                             an interest in computer science and brought me here! </li>
                         <li className="no-hover"><span className="text-4xl pr-0.5">&#9734;</span>
@@ -37,10 +37,10 @@ const About = () => {
 
 const Photos = () => {
     return (
-        <main className="photo-c-con rounded-xl w-2/5 flex ml-[48rem] mr-auto 
-        mt-12 h-[90vh] overflow-y-scroll ">
+        <main className="glass rounded-xl w-2/5 flex ml-[48rem] mr-auto 
+        mt-12 h-[90vh] overflow-y-scroll sticky top-20 ">
             <ul className="flex flex-col space-y-8 justify-center 
-            m-auto py-7 px-7">
+            m-auto py-7 px-7 text-3xl">
                 <li>
                     <figure>
                         <img src={require("./assets/nsls.jpeg")}

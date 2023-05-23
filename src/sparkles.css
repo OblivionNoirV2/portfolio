@@ -11,6 +11,7 @@ body {
   background-image: linear-gradient(90deg, rgb(153, 218, 250) 0%, rgb(103, 201, 253) 5%, rgb(92, 150, 250) 100%);
 }
 
+
 html:not(.not-slate) {
   font-family: "Chivo Mono";
   color: rgba(226, 232, 240, 0.8)
@@ -19,7 +20,7 @@ html:not(.not-slate) {
 
 .add-hover:hover {
   border-radius: 1rem;
-  background-color: rgba(2, 66, 176, 0.9);
+  background-color: rgb(153, 218, 250);
 }
 
 li {
@@ -36,25 +37,23 @@ li {
 
 .link_,
 a {
-  color: white;
+  color: rgb(2, 66, 176);
   font-weight: bold;
 }
 
 .link_:visited,
 a:visited {
-  color: grey;
+  color: white;
 }
 
 .link_:hover,
 a:hover {
-  color: hotpink;
+  color: grey;
 }
 
 .link_:active,
 a:active {
-  color: rgb(109,
-      9,
-      121);
+  color: rgb(103, 201, 253)
 }
 
 .tech-li>li>img {
@@ -100,12 +99,6 @@ a:active {
   margin: 1rem auto auto auto;
 }
 
-.proj-ul,
-.photo-c-con {
-  background: linear-gradient(90deg, rgba(2, 0, 20, 0.5) 0%,
-      rgba(2, 66, 176, 0.7) 100%);
-
-}
 
 
 @keyframes box-glow {
@@ -147,4 +140,8 @@ a:active {
 
   backdrop-filter: blur(5px);
 
+}
+
+.snowflake {
+  opacity: 0.5;
 }
