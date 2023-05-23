@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+
 //calculates approximate months since 8/9/2022
 function calculateTime(): number {
     const current_date = new Date();
@@ -50,10 +51,10 @@ const About = () => {
 const Photos = () => {
     return (
         <main className="glass rounded-xl w-2/5 flex ml-[48rem]  
-        mt-12 h-[90vh] overflow-y-scroll sticky top-20 ">
+        mt-12 h-[90vh] overflow-y-scroll sticky top-20 2">
             <ul className="flex flex-col space-y-8 justify-center 
-            m-auto py-7 px-7 text-3xl">
-                <li>
+            m-auto py-7 px-7 text-3xl my-8 ">
+                <li className="mt-[14rem]">
                     <figure>
                         <img src={require("./assets/nsls.jpeg")}
                             alt="nsls nomination"
