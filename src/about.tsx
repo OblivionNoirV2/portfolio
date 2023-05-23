@@ -47,14 +47,13 @@ const About = () => {
         </>
     );
 }
-
 const Photos = () => {
     return (
         <main className="glass rounded-xl w-2/5 flex ml-[48rem]  
-        mt-12 h-[90vh] overflow-y-scroll sticky top-20 2">
+        mt-12 h-[90vh] overflow-y-scroll sticky top-20 ">
             <ul className="flex flex-col space-y-8 justify-center 
-            m-auto py-7 px-7 text-3xl my-8 ">
-                <li className="mt-[14rem]">
+            m-auto py-7 px-7 text-3xl">
+                <li>
                     <figure>
                         <img src={require("./assets/nsls.jpeg")}
                             alt="nsls nomination"
@@ -129,5 +128,6 @@ const Photos = () => {
         </main>
     );
 }
+
 
 export default About;
