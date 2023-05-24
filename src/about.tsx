@@ -9,48 +9,72 @@ function calculateTime(): number {
 
     return Math.floor(difference_in_milliseconds / one_month);
 }
+const Other = () => {
+    return (
+        <section className="w-1/2 mr-4">
 
+            <ol className="space-y-2 mt-2 ">
+                <h2 className="mt-6 justify-start text-5xl ">
+                    Some other interests of mine include:
+                </h2>
+                <li className="no-hover">
+                    <span className="text-4xl pr-0.5">
+                        &#10052;
+                    </span>Music:
+                    I've been very passionate
+                    about all kinds of music ever since I was little and know quite a lot about it. I also produce it.</li>
+                <li className="no-hover">
+                    <span className="text-4xl pr-0.5">
+                        &#10052;
+                    </span>Gaming: Building a gaming PC is actually what created
+                    an interest in computer science and brought me here!
+                </li>
+                <li className="no-hover">
+                    <span className="text-4xl pr-0.5">
+                        &#10052;
+                    </span>
+                    I've also been learning Japanese for about {calculateTime()} months as of writing this, and really enjoying the
+                    process! I love learning new things.</li>
+            </ol>
+        </section>
+    )
+}
+
+const Desc = () => {
+    return (
+        <div className="w-2/3" >
+            <section className='flex flex-col ml-4 pl-4 text-2xl 
+        not-shadow leading-loose px-8 rounded-tr-2xl rounded-br-2xl 
+        rounded bl-2xl'>
+                <h1 className="flex justify-start text-5xl mt-6">Hi, I'm Ben</h1>
+                <p className="mt-8">
+                    I am a primarily self-taught front end web developer. I pride myself on my imagination and creativity, which I hope is visible in my projects. I don't yet have any
+                    experience in the field, but I love what I do and am eager to learn
+                    and build some awesome things! I'm also very interested in learning back end development, but the focus is front for now.
+                    You can see what I've built <Link to="/projects" className="link_">here</Link>.
+                </p>
+
+            </section>
+        </div>
+    )
+}
 const About = () => {
     //make the h1 look really fancy 
     return (
-        <>
-            <div className="flex w-full ">
-                <section className='flex flex-col glass w-4/6 ml-36 pl-4 text-2xl 
-        not-shadow leading-loose px-8 rounded-tr-2xl rounded-br-2xl 
-        rounded bl-2xl mb-48'>
-                    <h1 className="flex justify-start text-5xl">Hi, I'm Ben</h1>
-                    <p className="mt-8">
-                        I am a primarily self-taught front end web developer. I pride myself on my imagination and creativity, which I hope is visible in my projects. I don't yet have any
-                        experience in the field, but I love what I do and am eager to learn
-                        and build some awesome things! I'm also very interested in learning back end development, but the focus is front for now.
-                        You can see what I've built <Link to="/projects" className="link_">here</Link>.
-                    </p>
-                    <h2 className="mt-6">Some other interests of mine include:</h2>
-                    <ol className="space-y-2 mt-2">
-                        <li className="no-hover">
-                            <span className="text-4xl pr-0.5">
-                                &#10052;
-                            </span>Music:
-                            I've been very passionate
-                            about all kinds of music ever since I was little and know quite a lot about it. I also produce it and play guitar.</li>
-                        <li className="no-hover">
-                            <span className="text-4xl pr-0.5">
-                                &#10052;
-                            </span>Gaming: Building a gaming PC is actually what created
-                            an interest in computer science and brought me here!
-                        </li>
-                    </ol>
-                </section>
-                <section>
-                    <Photos />
-                </section>
+        <section className="w-full flex">
+            <div className="flex flex-row glass w-2/3 h-fit pb-4 rounded-tr-2xl rounded-br-2xl">
+                <Desc />
+                <Other />
             </div>
-        </>
+            <section className="flex flex-row w-2/3">
+                <Photos />
+            </section>
+        </section>
     );
 }
 const Photos = () => {
     return (
-        <main className="glass-photos rounded-xl w-2/5 flex ml-[48rem]  
+        <main className="glass-photos rounded-xl w-1/2 flex ml-[10rem]  
         mt-12 h-[90vh] overflow-y-scroll sticky top-20 ">
             <ul className="flex flex-col space-y-8 justify-center 
             m-auto py-7 px-7 text-3xl">
@@ -71,16 +95,6 @@ const Photos = () => {
                             className="rounded-xl" />
                         <figcaption>
                             Where the magic happens
-                        </figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img src={require("./assets/akatsuki.jpeg")}
-                            alt="guitar"
-                            className="rounded-xl" />
-                        <figcaption>
-                            My beloved guitar. Yes, that's a 9 string. It's a metal thing.
                         </figcaption>
                     </figure>
                 </li>

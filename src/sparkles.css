@@ -32,23 +32,23 @@ li {
 
 .link_,
 a {
-  color: white;
+  color: rgb(4, 163, 249);
   font-weight: bold;
 }
 
 .link_:visited,
 a:visited {
-  color: rgb(183, 183, 183);
+  color: rgb(103, 201, 253);
 }
 
 .link_:hover,
 a:hover {
-  color: grey;
+  color: rgb(54, 184, 254);
 }
 
 .link_:active,
 a:active {
-  color: rgb(103, 201, 253)
+  color: grey
 }
 
 .tech-li>li>img {
