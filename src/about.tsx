@@ -14,9 +14,9 @@ const About = () => {
     //make the h1 look really fancy 
     return (
         <>
-            <div className="flex w-full">
-                <section className='flex flex-col w-4/6 ml-36 pl-4 text-2xl 
-        not-shadow leading-loose'>
+            <div className="flex w-full ">
+                <section className='flex flex-col glass w-4/6 ml-36 pl-4 text-2xl 
+        not-shadow leading-loose px-8 rounded-tr-2xl rounded-br-2xl rounded bl-2xl'>
                     <h1 className="flex justify-start text-5xl">Hi, I'm Ben</h1>
                     <p className="mt-8">
                         I am a primarily self-taught front end web developer. I pride myself on my imagination and creativity, which I hope is visible in my projects. I don't yet have any

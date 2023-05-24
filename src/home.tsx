@@ -39,7 +39,7 @@ const GlassMenu = () => {
 const NameSegment = () => {
     return (
 
-        <main className="flex flex-row w-1/2 h-screen items-center">
+        <main className="flex flex-row w-1/2  h-screen items-center">
 
             <div className="flex flex-col items-start ml-64">
                 <h1 className="text-7xl">Welcome to my site</h1>

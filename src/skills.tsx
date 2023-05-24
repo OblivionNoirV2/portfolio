@@ -1,98 +1,141 @@
 
-//Put a little grid of images for each of these
-import GlassNavBar from "./GlassNav";
-
-const Projects = () => {
+//put an overlay on this that looks like glass
+const Skills = () => {
     return (
-        <main className="glass w-2/5 flex flex-col ml-[48rem] 
-        mr-auto mt-12 h-[90vh] overflow-y-scroll   rounded-tr-2xl rounded-br-2xl rounded-bl-2xl">
-            <h1 className="text-5xl flex justify-center mx-auto 
-            proj-title">
-                Projects
-            </h1>
-            <ul className="proj-ul flex flex-col space-y-8 justify-center 
-            mx-auto px-7 mt-4 rounded-xl">
+        <div className="flex flex-col g -ml-4 h-full w-1/2  p-6 
+            rounded-tr-2xl rounded-br-2xl rounded-bl-2xl mt-12">
+
+            <ul className="tech-li  flex-col space-y-12
+                rounded-xl " >
                 <li>
-                    <figure>
-                        <h1>Infinite Boss Battle</h1>
-                        <figcaption>
-                            The largest project I've done.
-                            A 2D RPG turn based combat system with an evolving
-                            boss fight and over 20 different player actions that runs in the browser.
-                            It also gives you a performance score at the end.
-                        </figcaption>
-                        image goes here
-                    </figure>
+                    <span className="text-4xl pr-[1rem] -mt-2">
+                        &#10052;
+                        Git/Github
+                    </span>
+                    <img src={require("./assets/gitlogo.png")} />
                 </li>
                 <li>
-                    <figure>
-                        <h1>NeonNights</h1>
-                        <figcaption>
-                            An imaginary cyberpunk-themed online shopping site.
-                        </figcaption>
-                        image goes here
-                    </figure>
+                    <span className="text-4xl pr-[1rem] -mt-2">
+                        &#10052;
+                        Data Structures and Algorithms
+                    </span>
+                    <img src={require("./assets/dsaa.png")} />
                 </li>
                 <li>
-                    <figure>
-                        <h1>some third project</h1>
-                        <figcaption>
-                            some third project description
-                        </figcaption>
-                        image goes here
-                    </figure>
+                    <span className="text-4xl pr-[1rem] -mt-2">
+                        &#10052;
+                        Object Oriented Programming
+                    </span>
+                    <img src={require("./assets/oop.png")} />
+                </li>
+                <li >
+                    <span className="text-4xl pr-[1rem] -mt-2">
+                        &#10052;
+                        Declarative/
+                        <br></br>
+                        Imperative
+                        Programming (React)
+                    </span>
+                    <img src={require("./assets/thecoolerreact.png")} />
                 </li>
             </ul>
-        </main>
-    );
-};
+        </div>
+    )
+}
+
+const Tech = () => {
+
+    return (
+        <div className="flex flex-col -ml-4 h-full w-1/2  p-6 
+            rounded-tr-2xl rounded-br-2xl rounded-bl-2xl mt-12">
+
+            <ul className="tech-li w-full flex-col space-y-12
+                rounded-xl " >
+                <li>
+                    <span className="text-4xl pr-[1rem] -mt-2">
+                        &#10052;
+                        HTML
+                    </span>
+                    <img src={require("./assets/htmllogo.png")} />
+                </li>
+                <li>
+                    <span className="text-4xl pr-[1rem] -mt-2">
+                        &#10052;
+                        CSS
+                    </span>
+
+                    <img src={require("./assets/csslogo.png")} />
+                </li>
+                <li>
+                    <span className="text-4xl pr-[1rem] -mt-2">
+                        &#10052;
+                        Tailwind CSS
+                    </span>
+
+                    <img src={require("./assets/tailwindlogo.png")} />
+                </li>
+                <li>
+                    <span className="text-4xl pr-[1rem] -mt-2">
+                        &#10052;
+                        Javascript
+                    </span>
+                    <img src={require("./assets/jslogo.png")}
+                        alt="javascript logo"
+                    />
+                </li>
+                <li>
+                    <span className="text-4xl pr-[1rem] -mt-2">
+                        &#10052;
+                        Typescript
+                    </span>
+                    <img src={require("./assets/tslogo.png")}
+                        alt="typescript logo" />
+                </li>
+                <li>
+                    <span className="text-4xl pr-[1rem] -mt-2">
+                        &#10052;
+                        React JS/TS
+                    </span>
+
+                    <img src={require("./assets/reactlogo.png")}
+                        className="mb-4" />
+                </li>
+                <li>
+                    <span className="text-4xl pr-[1rem] mb-4 -mt-2">
+                        &#10052;
+                        ...And more to come!
+                    </span>
+                </li>
+            </ul>
 
 
+        </div>
+    )
+
+}
 const TechSkills = () => {
     return (
-        <main className="flex w-full ml-36 ">
-            <div className="flex flex-col glass -ml-4 h-full p-6 
-            rounded-tr-2xl rounded-br-2xl rounded-bl-2xl mt-12">
-                <h1 className="text-3xl">Technologies I'm familiar with:
-                </h1>
-
-                <ul className="tech-li w-full flex-col space-y-8 text-3xl
-                rounded-xl " >
+        <main className="flex w-2/5 justify-center mx-auto mt-24 
+        h-[90vh] sticky top-40  ">
+            <div className="flex flex-col ">
+                <ul className="flex flex-row justify-start text-5xl  ">
                     <li>
-                        <span className="text-5xl pr-[1rem] ">&#10052;</span>
-                        HTML
-                        <img src={require("./assets/htmllogo.png")} />
+                        <h1>
+                            Tech&#x21d3;
+                        </h1>
                     </li>
-                    <li>
-                        <span className="text-5xl pr-[1rem]">&#10052;</span>
-                        CSS
-                        <img src={require("./assets/csslogo.png")} />
-                    </li>
-                    <li>
-                        <span className="text-5xl pr-[1rem]">&#10052;</span>
-                        Tailwind CSS
-                        <img src={require("./assets/tailwindlogo.png")} />
-                    </li>
-                    <li>
-                        <span className="text-5xl pr-[1rem]">&#10052;</span>
-                        Javascript
-                        <img src={require("./assets/jslogo.png")}
-                            alt="javascript logo"
-                        />
-                    </li>
-                    <li>
-                        <span className="text-5xl pr-[1rem]">&#10052;</span>
-                        Typescript
-                        <img src={require("./assets/tslogo.png")}
-                            alt="typescript logo" />
-                    </li>
-                    <li>
-                        <span className="text-5xl pr-[1rem] mb-4">&#10052;</span>
-                        React JS/TS
-                        <img src={require("./assets/reactlogo.png")}
-                            className="mb-4" />
+                    <li className="ml-[21rem]">
+                        <h1>
+                            Skills&#x21d3;
+                        </h1>
                     </li>
                 </ul>
+                <hr className="ts-hr"></hr>
+                <div className="flex flex-row glass rounded-br-2xl 
+                rounded-tr-2xl rounded-bl-2xl overflow-scroll">
+                    <Tech />
+                    <Skills />
+                </div>
             </div>
         </main>
     )
