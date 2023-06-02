@@ -7,12 +7,26 @@ html {
   overflow-y: auto;
 }
 
+body::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  /* change 0.7 as per your requirement to make the background lighter or darker */
+  z-index: -1;
+  /* so that the content of the body will be visible on top of the overlay */
+}
+
 body {
-  background-image: url("assets/glassbg.png");
+  position: relative;
+  background-image: url("assets/glassbgv3.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 
 html:not(.not-slate) {
   font-family: "Chivo Mono";
@@ -66,9 +80,6 @@ a:active {
   font-size: x-large;
   margin-top: 1rem;
 }
-
-
-
 
 
 .project-c-con>ul>li>figure>h1 {
