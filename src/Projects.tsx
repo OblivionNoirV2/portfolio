@@ -32,9 +32,9 @@ const Projects = () => {
                 </li>
                 <li>
                     <figure>
-                        <h1>some third project</h1>
+                        <h1>Mechanical Keyboard Designer</h1>
                         <figcaption>
-                            some third project description
+                            desc
                         </figcaption>
                         image goes here
                     </figure>

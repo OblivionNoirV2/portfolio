@@ -82,6 +82,7 @@ a:active {
 }
 
 
+
 .project-c-con>ul>li>figure>h1 {
   font-size: 2rem;
   display: flex;
@@ -109,7 +110,7 @@ a:active {
 
 .glass {
   background-color: rgba(255, 255, 255, .15);
-  backdrop-filter: blur(1rem);
+  backdrop-filter: blur(.8rem);
   box-shadow:
     -1rem -1rem .5rem inset rgba(255, 255, 255, .6),
     1rem 1rem .5rem rgba(0, 0, 0, .4);
