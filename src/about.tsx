@@ -23,7 +23,7 @@ const Other = () => {
                     </span>Music:
                     I've been very passionate
                     about all kinds of music ever since I was little and know quite a lot about it.
-                    I also produce it sometimes and play guitar.</li>
+                    I also produce it sometimes.</li>
                 <li className="no-hover">
                     <span className="text-4xl pr-0.5">
                         &#10052;
@@ -34,8 +34,7 @@ const Other = () => {
                     <span className="text-4xl pr-0.5">
                         &#10052;
                     </span>
-                    I've also been learning Japanese for about {calculateTime()} months as of writing this, and really enjoying the
-                    process! I love learning new things.</li>
+                    I've also been learning Japanese for about {calculateTime()} months as of writing this, and fully intend to continue to fluency. I love learning new things.</li>
             </ol>
         </section>
     )
@@ -116,16 +115,6 @@ const Photos = () => {
                             className="rounded-xl" />
                         <figcaption>
                             My name in binary (shortened to "Ben")
-                        </figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img src={require("./assets/akatsuki.jpeg")}
-                            alt="my guitar"
-                            className="rounded-xl" />
-                        <figcaption>
-                            My beloved guitar. Yes that's a 9 string, it's a metal thing.
                         </figcaption>
                     </figure>
                 </li>

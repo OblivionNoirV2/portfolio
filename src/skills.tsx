@@ -38,6 +38,13 @@ const Skills = () => {
                     </span>
                     <img src={require("./assets/thecoolerreact.png")} />
                 </li>
+                <li>
+                    <span className="text-4xl pr-[1rem] -mt-2">
+                        &#10052;
+                        Linux (Solus)
+                    </span>
+                    <img src={require("./assets/birb.jpg")} />
+                </li>
             </ul>
         </div>
     )
