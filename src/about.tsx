@@ -31,6 +31,9 @@ const Other = () => {
                     </span>
                     Aside fom music, I love creation in general and there are many different forms I'd like to try, including
                     creating a visual novel or 3D modeling.
+                    I am a strong advocate for self-teaching.
+                    With the internet and enough willpower,
+                    there are no limits.
                 </li>
                 <li className="no-hover">
                     <span className="text-4xl pr-0.5">
