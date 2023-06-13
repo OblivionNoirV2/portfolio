@@ -60,7 +60,7 @@ const NameSegment = () => {
 const ShortDesc = () => {
     return (
         <p className="text-2xl leading-loose w-2/3 mb-14">
-            I am Benjamin Donahue, a front end web developer with a passion for
+            I am Benjamin Donahue, a software engineer with a passion for
             learning and creating. I'm excited to be a part of modern technology,
             and during my lifetime I hope to help test the limits of what we as programmers can make reality.
         </p>

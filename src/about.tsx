@@ -23,7 +23,15 @@ const Other = () => {
                     </span>Music:
                     I've been very passionate
                     about all kinds of music ever since I was little and know quite a lot about it.
-                    I also produce it sometimes.</li>
+                    I also produce it sometimes and play guitar.
+                </li>
+                <li className="no-hover">
+                    <span className="text-4xl pr-0.5">
+                        &#10052;
+                    </span>
+                    Aside fom music, I love creation in general and there are many different forms I'd like to try, including
+                    creating a visual novel or 3D modeling.
+                </li>
                 <li className="no-hover">
                     <span className="text-4xl pr-0.5">
                         &#10052;
@@ -34,7 +42,7 @@ const Other = () => {
                     <span className="text-4xl pr-0.5">
                         &#10052;
                     </span>
-                    I've also been learning Japanese for about {calculateTime()} months as of writing this, and fully intend to continue to fluency. I love learning new things.</li>
+                    I've also been learning Japanese for about {calculateTime()} months as of writing this, and fully intend to continue to fluency.</li>
             </ol>
         </section>
     )
@@ -48,9 +56,9 @@ const Desc = () => {
         rounded bl-2xl'>
                 <h1 className="flex justify-start text-5xl mt-6">Hi, I'm Ben</h1>
                 <p className="mt-8">
-                    I am a primarily self-taught front end web developer. I pride myself on my imagination and creativity, which I hope is visible in my projects. I don't yet have any
+                    I am a primarily self-taught software engineer. I pride myself on my imagination and creativity, which I hope is visible in my projects. I don't yet have any
                     experience in the field, but I love what I do and am eager to learn
-                    and build some awesome things! I'm also very interested in learning back end development, but the focus is front for now.
+                    and build some awesome things!
                     You can see what I've built <Link to="/projects" className="link_">here</Link>.
                 </p>
 
@@ -115,6 +123,15 @@ const Photos = () => {
                             className="rounded-xl" />
                         <figcaption>
                             My name in binary (shortened to "Ben")
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <video controls src={require("./assets/570.mp4")}
+                            className="rounded-xl" />
+                        <figcaption>
+                            🎸
                         </figcaption>
                     </figure>
                 </li>

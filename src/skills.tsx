@@ -41,15 +41,20 @@ const Skills = () => {
                 <li>
                     <span className="text-4xl pr-[1rem] -mt-2">
                         &#10052;
-                        Linux (Solus)
+                        Linux (Ubuntu)
                     </span>
                     <img src={require("./assets/birb.jpg")} />
+                </li>
+                <li>
+                    <span className="text-4xl pr-[1rem] -mt-2">
+                        &#10052;
+                        Strong knowledge of CS and how computers work
+                    </span>
                 </li>
             </ul>
         </div>
     )
 }
-
 const Tech = () => {
 
     return (
@@ -108,17 +113,22 @@ const Tech = () => {
                         className="mb-4" />
                 </li>
                 <li>
+                    <span className="text-4xl pr-[1rem] -mt-2">
+                        &#10052;
+                        Ruby (Desktop)
+                    </span>
+                    <img src={require("./assets/rubylogo.png")}
+                        className="mb-4" />
+                </li>
+                <li>
                     <span className="text-4xl pr-[1rem] mb-4 -mt-2">
                         &#10052;
                         ...And more to come!
                     </span>
                 </li>
             </ul>
-
-
         </div>
     )
-
 }
 const TechSkills = () => {
     return (
