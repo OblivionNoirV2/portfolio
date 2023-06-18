@@ -9,25 +9,25 @@ const GlassMenu = () => {
                     <Link to="/about">About</Link>
                 </li>
                 <li className="snowflake">
-                    &#10052;
+                    &#127800;
                 </li>
                 <li className='add-hover ml-64 py-6 mx-6 mt-4'>
                     <Link to="/skills">Skills</Link>
                 </li>
                 <li className="snowflake">
-                    &#10052;
+                    &#127800;
                 </li>
                 <li className='add-hover mr-64 py-6 mx-6 mt-4'>
                     <Link to="/projects">Projects</Link>
                 </li>
                 <li className="snowflake">
-                    &#10052;
+                    &#127800;
                 </li>
                 <li className='add-hover ml-64 py-6 mx-6 mt-4'>
                     <Link to="/contact">Contact</Link>
                 </li>
                 <li className="snowflake">
-                    &#10052;
+                    &#127800;
                 </li>
             </ul>
         </nav>

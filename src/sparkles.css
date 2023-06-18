@@ -15,7 +15,7 @@ body::before {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.6);
   /* change 0.7 as per your requirement to make the background lighter or darker */
   z-index: -1;
   /* so that the content of the body will be visible on top of the overlay */
@@ -23,7 +23,7 @@ body::before {
 
 body {
   position: relative;
-  background-image: url("assets/glassbgv3.png");
+  background-image: url("assets/glasssakurav2.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -37,7 +37,7 @@ html:not(.not-slate) {
 
 .add-hover:hover {
   border-radius: 1rem;
-  background-color: rgb(153, 218, 250);
+  background-color: rgb(19, 0, 28);
 }
 
 li {
@@ -46,18 +46,20 @@ li {
 
 .link_,
 a {
-  color: rgb(4, 163, 249);
+
+  color: rgb(129, 1, 180);
   font-weight: bold;
 }
 
 .link_:visited,
 a:visited {
-  color: rgb(103, 201, 253);
+  color: rgb(145, 4, 131);
+
 }
 
 .link_:hover,
 a:hover {
-  color: rgb(54, 184, 254);
+  color: rgb(194, 40, 255)
 }
 
 .link_:active,
@@ -102,27 +104,38 @@ a:active {
 
 
 .glass-photos {
-  background-color: rgba(255, 255, 255, .15);
+  background-color: rgba(0,
+      0,
+      0,
+      0.15);
   backdrop-filter: blur(1rem);
-  box-shadow: -1rem 0 1rem inset rgba(255, 255, 255, .6),
+  box-shadow: -1rem 0 1rem inset rgba(102,
+      102,
+      102, .6),
     1rem 0 1rem rgba(0, 0, 0, .4);
 }
 
 .glass {
-  background-color: rgba(255, 255, 255, .15);
+  background-color: rgba(0, 0, 0, 0.15);
   backdrop-filter: blur(.8rem);
   box-shadow:
-    -1rem -1rem .5rem inset rgba(255, 255, 255, .6),
+    -1rem -1rem .5rem inset rgba(102, 102, 102, 0.7),
     1rem 1rem .5rem rgba(0, 0, 0, .4);
 
 }
 
 
 .glass-nav {
-  background-color: rgba(255, 255, 255, .15);
+  background-color: rgba(0,
+      0,
+      0,
+      0.15);
   backdrop-filter: blur(1rem);
   box-shadow:
-    -.5rem -.5rem .5rem inset rgba(255, 255, 255, .6),
+    -.5rem -.5rem .5rem inset rgba(102,
+      102,
+      102,
+      0.6),
     1rem 1rem .5rem rgba(0, 0, 0, .4);
 }
 
@@ -136,7 +149,7 @@ figcaption {
 
 .ts-hr {
   height: .5rem;
-  background-color: rgb(2, 66, 176);
+  background-color: rgb(46, 1, 61);
   border: none;
   border-radius: 1rem;
   margin: .25rem 0 1rem 0;
@@ -146,15 +159,15 @@ figcaption {
 
 @keyframes blueglow {
   0% {
-    box-shadow: 0 0 .25rem .25rem white;
+    box-shadow: 0 0 .25rem .25rem rgb(152, 1, 169);
   }
 
   33% {
-    box-shadow: 0 0 .25rem .25rem rgb(153, 218, 250);
+    box-shadow: 0 0 .25rem .25rem rgb(93, 1, 101);
   }
 
   66% {
-    box-shadow: 0 0 .25rem .25rem rgb(103, 201, 253);
+    box-shadow: 0 0 .25rem .25rem rgb(0, 0, 0);
   }
 
 }

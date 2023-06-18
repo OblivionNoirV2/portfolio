@@ -9,28 +9,28 @@ const Skills = () => {
                 rounded-xl " >
                 <li>
                     <span className="text-4xl pr-[1rem] -mt-2">
-                        &#10052;
+                        &#127800;
                         Git/Github
                     </span>
                     <img src={require("./assets/gitlogo.png")} />
                 </li>
                 <li>
                     <span className="text-4xl pr-[1rem] -mt-2">
-                        &#10052;
+                        &#127800;
                         Data Structures and Algorithms
                     </span>
                     <img src={require("./assets/dsaa.png")} />
                 </li>
                 <li>
                     <span className="text-4xl pr-[1rem] -mt-2">
-                        &#10052;
+                        &#127800;
                         Object Oriented Programming
                     </span>
                     <img src={require("./assets/oop.png")} />
                 </li>
                 <li >
                     <span className="text-4xl pr-[1rem] -mt-2">
-                        &#10052;
+                        &#127800;
                         Declarative/
                         <br></br>
                         Imperative
@@ -40,14 +40,14 @@ const Skills = () => {
                 </li>
                 <li>
                     <span className="text-4xl pr-[1rem] -mt-2">
-                        &#10052;
+                        &#127800;
                         Linux (Ubuntu)
                     </span>
                     <img src={require("./assets/birb.jpg")} />
                 </li>
                 <li>
                     <span className="text-4xl pr-[1rem] -mt-2">
-                        &#10052;
+                        &#127800;
                         Strong knowledge of CS and how computers work
                     </span>
                 </li>
@@ -65,14 +65,14 @@ const Tech = () => {
                 rounded-xl " >
                 <li>
                     <span className="text-4xl pr-[1rem] -mt-2">
-                        &#10052;
+                        &#127800;
                         HTML
                     </span>
                     <img src={require("./assets/htmllogo.png")} />
                 </li>
                 <li>
                     <span className="text-4xl pr-[1rem] -mt-2">
-                        &#10052;
+                        &#127800;
                         CSS
                     </span>
 
@@ -80,7 +80,7 @@ const Tech = () => {
                 </li>
                 <li>
                     <span className="text-4xl pr-[1rem] -mt-2">
-                        &#10052;
+                        &#127800;
                         Tailwind CSS
                     </span>
 
@@ -88,7 +88,7 @@ const Tech = () => {
                 </li>
                 <li>
                     <span className="text-4xl pr-[1rem] -mt-2">
-                        &#10052;
+                        &#127800;
                         Javascript
                     </span>
                     <img src={require("./assets/jslogo.png")}
@@ -97,7 +97,7 @@ const Tech = () => {
                 </li>
                 <li>
                     <span className="text-4xl pr-[1rem] -mt-2">
-                        &#10052;
+                        &#127800;
                         Typescript
                     </span>
                     <img src={require("./assets/tslogo.png")}
@@ -105,7 +105,7 @@ const Tech = () => {
                 </li>
                 <li>
                     <span className="text-4xl pr-[1rem] -mt-2">
-                        &#10052;
+                        &#127800;
                         React JS/TS
                     </span>
 
@@ -114,7 +114,7 @@ const Tech = () => {
                 </li>
                 <li>
                     <span className="text-4xl pr-[1rem] -mt-2">
-                        &#10052;
+                        &#127800;
                         Ruby (Desktop)
                     </span>
                     <img src={require("./assets/rubylogo.png")}
@@ -122,7 +122,7 @@ const Tech = () => {
                 </li>
                 <li>
                     <span className="text-4xl pr-[1rem] mb-4 -mt-2">
-                        &#10052;
+                        &#127800;
                         ...And more to come!
                     </span>
                 </li>

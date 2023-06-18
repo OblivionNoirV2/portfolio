@@ -19,7 +19,7 @@ const Other = () => {
                 </h2>
                 <li className="no-hover">
                     <span className="text-4xl pr-0.5">
-                        &#10052;
+                        &#127800;
                     </span>Music:
                     I've been very passionate
                     about all kinds of music ever since I was little and know quite a lot about it.
@@ -27,7 +27,7 @@ const Other = () => {
                 </li>
                 <li className="no-hover">
                     <span className="text-4xl pr-0.5">
-                        &#10052;
+                        &#127800;
                     </span>
                     Aside fom music, I love creation in general and there are many different forms I'd like to try, including
                     creating a visual novel or 3D modeling.
@@ -37,13 +37,13 @@ const Other = () => {
                 </li>
                 <li className="no-hover">
                     <span className="text-4xl pr-0.5">
-                        &#10052;
+                        &#127800;
                     </span>Gaming: Building a gaming PC is actually what created
                     an interest in computer science and brought me here!
                 </li>
                 <li className="no-hover">
                     <span className="text-4xl pr-0.5">
-                        &#10052;
+                        &#127800;
                     </span>
                     I've also been learning Japanese for about {calculateTime()} months as of writing this, and fully intend to continue to fluency.</li>
             </ol>
@@ -86,7 +86,7 @@ const About = () => {
 const Photos = () => {
     return (
         <main className="glass-photos rounded-xl w-1/2 flex ml-[10rem]  
-        mt-12 h-[90vh] overflow-y-scroll sticky top-20 ">
+        mt-12 h-[100vh] overflow-y-scroll sticky top-20 ">
             <ul className="flex flex-col space-y-8 justify-center 
             m-auto py-7 px-7 text-3xl">
                 <li>
