@@ -45,7 +45,7 @@ const Other = () => {
                     <span className="text-4xl pr-0.5">
                         &#127800;
                     </span>
-                    I've also been learning Japanese for about {calculateTime()} months as of writing this, and fully intend to continue to fluency.</li>
+                    I've also been learning Japanese for about {calculateTime()} months (that timer updates automatically) and fully intend to continue to fluency.</li>
             </ol>
         </section>
     )
@@ -131,7 +131,7 @@ const Photos = () => {
                 </li>
                 <li>
                     <figure>
-                        <video controls src={require("./assets/570.mp4")}
+                        <video controls src={require("./assets/thatriff.mp4")}
                             className="rounded-xl" />
                         <figcaption>
                             🎸
