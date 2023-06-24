@@ -61,7 +61,7 @@ const Desc = () => {
                 <p className="mt-8">
                     I am a primarily self-taught software engineer. I pride myself on my imagination and creativity, which I hope is visible in my projects. I don't yet have any
                     experience in the field, but I love what I do and am eager to learn
-                    and build some awesome things!
+                    and build some awesome things! My primary focus at the moment in tech is front end dev but I'm very interested in the field in general and am more than willing to expand beyond that.
                     You can see what I've built <Link to="/projects" className="link_">here</Link>.
                 </p>
 
@@ -137,16 +137,6 @@ const Photos = () => {
                         <figcaption>
                             The first original program I ever wrote, a simple text based RPG battle game.
                             Also see <a href="https://github.com/OblivionNoirV2/god_killer" target="blank_">this!</a>
-                        </figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <img src={require("./assets/catcode.jpeg")}
-                            alt="cat next to programming book"
-                            className="rounded-xl" />
-                        <figcaption>
-                            My genius secretary.
                         </figcaption>
                     </figure>
                 </li>

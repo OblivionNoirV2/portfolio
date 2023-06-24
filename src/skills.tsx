@@ -115,7 +115,7 @@ const Tech = () => {
 const TechSkills = () => {
     return (
         <main className="flex w-2/5 justify-center mx-auto 
-          max-h-[90vh]">
+          max-h-[95vh]">
             <div className="flex flex-col sticky top-40 ">
                 <ul className="flex flex-row justify-start text-5xl  ">
                     <li>
