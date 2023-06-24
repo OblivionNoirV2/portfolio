@@ -23,6 +23,7 @@ body::before {
 
 body {
   position: relative;
+  min-height: 100vh;
   background-image: url("assets/glasssakurav2.png");
   background-repeat: no-repeat;
   background-size: cover;

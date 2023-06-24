@@ -23,7 +23,7 @@ const Other = () => {
                     </span>Music:
                     I've been very passionate
                     about all kinds of music ever since I was little and know quite a lot about it.
-                    I also produce it sometimes and play guitar.
+                    I also produce it sometimes.
                 </li>
                 <li className="no-hover">
                     <span className="text-4xl pr-0.5">
@@ -126,15 +126,6 @@ const Photos = () => {
                             className="rounded-xl" />
                         <figcaption>
                             My name in binary (shortened to "Ben")
-                        </figcaption>
-                    </figure>
-                </li>
-                <li>
-                    <figure>
-                        <video controls src={require("./assets/thatriff.mp4")}
-                            className="rounded-xl" />
-                        <figcaption>
-                            🎸
                         </figcaption>
                     </figure>
                 </li>

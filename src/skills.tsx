@@ -28,16 +28,6 @@ const Skills = () => {
                     </span>
                     <img src={require("./assets/oop.png")} />
                 </li>
-                <li >
-                    <span className="text-4xl pr-[1rem] -mt-2">
-                        &#127800;
-                        Declarative/
-                        <br></br>
-                        Imperative
-                        Programming (React)
-                    </span>
-                    <img src={require("./assets/thecoolerreact.png")} />
-                </li>
                 <li>
                     <span className="text-4xl pr-[1rem] -mt-2">
                         &#127800;
@@ -58,7 +48,7 @@ const Skills = () => {
 const Tech = () => {
 
     return (
-        <div className="flex flex-col -ml-4 h-full w-1/2  p-6 
+        <div className="flex flex-col -ml-4 w-1/2  p-6 
             rounded-tr-2xl rounded-br-2xl rounded-bl-2xl mt-12">
 
             <ul className="tech-li w-full flex-col space-y-12
@@ -113,14 +103,6 @@ const Tech = () => {
                         className="mb-4" />
                 </li>
                 <li>
-                    <span className="text-4xl pr-[1rem] -mt-2">
-                        &#127800;
-                        Ruby (Desktop)
-                    </span>
-                    <img src={require("./assets/rubylogo.png")}
-                        className="mb-4" />
-                </li>
-                <li>
                     <span className="text-4xl pr-[1rem] mb-4 -mt-2">
                         &#127800;
                         ...And more to come!
@@ -132,9 +114,9 @@ const Tech = () => {
 }
 const TechSkills = () => {
     return (
-        <main className="flex w-2/5 justify-center mx-auto mt-24 
-        h-[90vh] sticky top-40  ">
-            <div className="flex flex-col ">
+        <main className="flex w-2/5 justify-center mx-auto 
+          max-h-[90vh]">
+            <div className="flex flex-col sticky top-40 ">
                 <ul className="flex flex-row justify-start text-5xl  ">
                     <li>
                         <h1>
@@ -149,7 +131,7 @@ const TechSkills = () => {
                 </ul>
                 <hr className="ts-hr"></hr>
                 <div className="flex flex-row glass rounded-br-2xl 
-                rounded-tr-2xl rounded-bl-2xl overflow-scroll">
+                rounded-tr-2xl rounded-bl-2xl overflow-scroll h-2/3">
                     <Tech />
                     <Skills />
                 </div>
