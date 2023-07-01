@@ -38,7 +38,7 @@ const Skills = () => {
                 <li>
                     <span className="text-4xl pr-[1rem] -mt-2">
                         &#127800;
-                        Strong knowledge of CS and how computers work
+                        Big O Notation
                     </span>
                 </li>
             </ul>

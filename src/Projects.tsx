@@ -11,11 +11,13 @@ const Projects = () => {
             mx-auto px-7 mt-4 rounded-xl">
                 <li>
                     <figure>
-                        <h1>Infinite Boss Battle</h1>
+                        <h1>Shadow's Requiem</h1>
                         <figcaption>
                             The largest project I've done.
                             A 2D RPG turn based combat system with an evolving
-                            boss fight and over 20 different player actions that runs in the browser.
+                            boss fight, dynamic menus, sound effects, status effects,
+                            soundtrack created by me, difficulty options, and over 20 different player actions that runs in the browser.
+                            It uses a combat system inspired by traditional JRPGs mixed with real time elements. No game engine, all React.
                             It also gives you a performance score at the end.
                         </figcaption>
                         image goes here
@@ -26,6 +28,8 @@ const Projects = () => {
                         <h1>NeonNights</h1>
                         <figcaption>
                             An imaginary cyberpunk-themed online shopping site.
+                            It does everything you'd expect a shopping site to do, but looks a lot cooler.
+                            You can sort by different filters, create a cart, edit the cart, see an order summary with monetary calculations, play the theme song, 'checkout', etc.
                         </figcaption>
                         image goes here
                     </figure>

@@ -1,14 +1,5 @@
 import { Link } from "react-router-dom";
 
-//calculates approximate months since 8/9/2022
-function calculateTime(): number {
-    const current_date = new Date();
-    const previous_date = new Date("2022-08-09");
-    const one_month = 1000 * 60 * 60 * 24 * 30; //milliseconds in one month
-    const difference_in_milliseconds = current_date.getTime() - previous_date.getTime();
-
-    return Math.floor(difference_in_milliseconds / one_month);
-}
 const Other = () => {
     return (
         <section className="w-1/2 mr-4">
@@ -23,7 +14,7 @@ const Other = () => {
                     </span>Music:
                     I've been very passionate
                     about all kinds of music ever since I was little and know quite a lot about it.
-                    I also produce it sometimes.
+                    I also produce it sometimes and play guitar.
                 </li>
                 <li className="no-hover">
                     <span className="text-4xl pr-0.5">
@@ -41,11 +32,6 @@ const Other = () => {
                     </span>Gaming: Building a gaming PC is actually what created
                     an interest in computer science and brought me here!
                 </li>
-                <li className="no-hover">
-                    <span className="text-4xl pr-0.5">
-                        &#127800;
-                    </span>
-                    I've also been learning Japanese for about {calculateTime()} months (that timer updates automatically) and fully intend to continue to fluency.</li>
             </ol>
         </section>
     )
@@ -61,7 +47,7 @@ const Desc = () => {
                 <p className="mt-8">
                     I am a primarily self-taught software engineer. I pride myself on my imagination and creativity, which I hope is visible in my projects. I don't yet have any
                     experience in the field, but I love what I do and am eager to learn
-                    and build some awesome things! My primary focus at the moment in tech is front end dev but I'm very interested in the field in general and am more than willing to expand beyond that.
+                    and build some awesome things!
                     You can see what I've built <Link to="/projects" className="link_">here</Link>.
                 </p>
 
@@ -126,6 +112,15 @@ const Photos = () => {
                             className="rounded-xl" />
                         <figcaption>
                             My name in binary (shortened to "Ben")
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <video controls src={require("./assets/solo.mp4")}
+                            className="rounded-xl" />
+                        <figcaption>
+                            🎸 (Yes that's a 9 string guitar, it's a metal thing)
                         </figcaption>
                     </figure>
                 </li>
