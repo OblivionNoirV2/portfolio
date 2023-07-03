@@ -1,5 +1,35 @@
+import htmllogo from "./assets/htmllogo.png";
+import csslogo from "./assets/csslogo.png";
+import tailwindlogo from "./assets/tailwindlogo.png";
+import jslogo from "./assets/jslogo.png";
+import tslogo from "./assets/tslogo.png";
+import reactlogo from "./assets/reactlogo.png";
+import nextlogo from "./assets/thecoolerreact.png";
 
-//put an overlay on this that looks like glass
+import gitlogo from "./assets/gitlogo.png";
+import dsaa from "./assets/dsaa.png";
+import linuxlogo from "./assets/birb.png";
+
+interface ListItemProps {
+    img_src?: string;
+    text: string;
+}
+const ListItem: React.FC<ListItemProps> = ({ img_src, text }) => {
+    return (
+        <li>
+            <span className="text-4xl pr-[1rem] -mt-2">
+                &#127800;
+                {text}
+            </span>
+            {
+                img_src &&
+                <img src={img_src} />
+            }
+
+        </li>
+    )
+
+}
 const Skills = () => {
     return (
         <div className="flex flex-col g -ml-4 h-full w-1/2  p-6 
@@ -7,44 +37,27 @@ const Skills = () => {
 
             <ul className="tech-li  flex-col space-y-12
                 rounded-xl " >
-                <li>
-                    <span className="text-4xl pr-[1rem] -mt-2">
-                        &#127800;
-                        Git/Github
-                    </span>
-                    <img src={require("./assets/gitlogo.png")} />
-                </li>
-                <li>
-                    <span className="text-4xl pr-[1rem] -mt-2">
-                        &#127800;
-                        Data Structures and Algorithms
-                    </span>
-                    <img src={require("./assets/dsaa.png")} />
-                </li>
-                <li>
-                    <span className="text-4xl pr-[1rem] -mt-2">
-                        &#127800;
-                        Object Oriented Programming
-                    </span>
-                    <img src={require("./assets/oop.png")} />
-                </li>
-                <li>
-                    <span className="text-4xl pr-[1rem] -mt-2">
-                        &#127800;
-                        Linux (Ubuntu)
-                    </span>
-                    <img src={require("./assets/birb.jpg")} />
-                </li>
-                <li>
-                    <span className="text-4xl pr-[1rem] -mt-2">
-                        &#127800;
-                        Big O Notation
-                    </span>
-                </li>
+                <ListItem
+                    img_src={gitlogo}
+                    text="Git/Github"
+                />
+                <ListItem
+                    img_src={dsaa}
+                    text="Data Structures and Algorithms"
+                />
+                <ListItem
+                    img_src={linuxlogo}
+                    text="Linux(Ubuntu)"
+                />
+                <ListItem
+                    text="Big O Notation"
+                />
             </ul>
         </div>
     )
 }
+
+
 const Tech = () => {
 
     return (
@@ -53,61 +66,37 @@ const Tech = () => {
 
             <ul className="tech-li w-full flex-col space-y-12
                 rounded-xl " >
-                <li>
-                    <span className="text-4xl pr-[1rem] -mt-2">
-                        &#127800;
-                        HTML
-                    </span>
-                    <img src={require("./assets/htmllogo.png")} />
-                </li>
-                <li>
-                    <span className="text-4xl pr-[1rem] -mt-2">
-                        &#127800;
-                        CSS
-                    </span>
-
-                    <img src={require("./assets/csslogo.png")} />
-                </li>
-                <li>
-                    <span className="text-4xl pr-[1rem] -mt-2">
-                        &#127800;
-                        Tailwind CSS
-                    </span>
-
-                    <img src={require("./assets/tailwindlogo.png")} />
-                </li>
-                <li>
-                    <span className="text-4xl pr-[1rem] -mt-2">
-                        &#127800;
-                        Javascript
-                    </span>
-                    <img src={require("./assets/jslogo.png")}
-                        alt="javascript logo"
-                    />
-                </li>
-                <li>
-                    <span className="text-4xl pr-[1rem] -mt-2">
-                        &#127800;
-                        Typescript
-                    </span>
-                    <img src={require("./assets/tslogo.png")}
-                        alt="typescript logo" />
-                </li>
-                <li>
-                    <span className="text-4xl pr-[1rem] -mt-2">
-                        &#127800;
-                        React JS/TS
-                    </span>
-
-                    <img src={require("./assets/reactlogo.png")}
-                        className="mb-4" />
-                </li>
-                <li>
-                    <span className="text-4xl pr-[1rem] mb-4 -mt-2">
-                        &#127800;
-                        ...And more to come!
-                    </span>
-                </li>
+                <ListItem
+                    img_src={htmllogo}
+                    text="HTML"
+                />
+                <ListItem
+                    img_src={csslogo}
+                    text="CSS"
+                />
+                <ListItem
+                    img_src={tailwindlogo}
+                    text="Tailwind CSS"
+                />
+                <ListItem
+                    img_src={jslogo}
+                    text="Javascript"
+                />
+                <ListItem
+                    img_src={tslogo}
+                    text="Typescript"
+                />
+                <ListItem
+                    img_src={reactlogo}
+                    text="React JS/TS"
+                />
+                <ListItem
+                    img_src={nextlogo}
+                    text="Next JS/TS"
+                />
+                <ListItem
+                    text="...And more to come!"
+                />
             </ul>
         </div>
     )
