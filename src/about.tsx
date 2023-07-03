@@ -1,5 +1,15 @@
 import { Link } from "react-router-dom";
 
+//calculates approximate months since 8/9/2022
+function calculateTime(): number {
+    const current_date = new Date();
+    const previous_date = new Date("2022-08-09");
+    const one_month = 1000 * 60 * 60 * 24 * 30; //milliseconds in one month
+    const difference_in_milliseconds = current_date.getTime() - previous_date.getTime();
+
+    return Math.floor(difference_in_milliseconds / one_month);
+}
+
 const Other = () => {
     return (
         <section className="w-1/2 mr-4">
@@ -31,6 +41,12 @@ const Other = () => {
                         &#127800;
                     </span>Gaming: Building a gaming PC is actually what created
                     an interest in computer science and brought me here!
+                </li>
+                <li className="no-hover">
+                    <span className="text-4xl pr-0.5">
+                        &#127800;
+                    </span>
+                    I've also been learning Japanese for about {calculateTime()} months (that timer updates automatically) and fully intend to continue to fluency.
                 </li>
             </ol>
         </section>
