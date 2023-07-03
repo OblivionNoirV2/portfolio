@@ -15,10 +15,9 @@ body::before {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.6);
-  /* change 0.7 as per your requirement to make the background lighter or darker */
+  /*really cool lighting effect, looks like sun shining down*/
+  background: linear-gradient(rgba(109, 9, 121, 0.2)0%, rgba(0, 0, 0, 0.6)20%);
   z-index: -1;
-  /* so that the content of the body will be visible on top of the overlay */
 }
 
 body {
