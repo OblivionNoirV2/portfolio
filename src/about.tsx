@@ -9,7 +9,6 @@ function calculateTime(): number {
 
     return Math.floor(difference_in_milliseconds / one_month);
 }
-
 const Other = () => {
     return (
         <section className="w-1/2 mr-4">
@@ -46,8 +45,7 @@ const Other = () => {
                     <span className="text-4xl pr-0.5">
                         &#127800;
                     </span>
-                    I've also been learning Japanese for about {calculateTime()} months (that timer updates automatically) and fully intend to continue to fluency.
-                </li>
+                    I've also been learning Japanese for about {calculateTime()} months (that timer updates automatically) and fully intend to continue to fluency.</li>
             </ol>
         </section>
     )
@@ -118,6 +116,15 @@ const Photos = () => {
                             className="rounded-xl" />
                         <figcaption>
                             One of my favorite pictures of one of my dogs and I
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <video controls src={require("./assets/solo.mp4")}
+                            className="rounded-xl" />
+                        <figcaption>
+                            🎸 (Yes that's a 9 string guitar, it's a metal thing)
                         </figcaption>
                     </figure>
                 </li>
