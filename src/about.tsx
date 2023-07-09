@@ -23,7 +23,7 @@ const Other = () => {
                     </span>Music:
                     I've been very passionate
                     about all kinds of music ever since I was little and know quite a lot about it.
-                    I also produce it. See (put link to music site here)
+                    I also produce it, which I taught myself as well. See (put link to music site here)
                 </li>
                 <li className="no-hover">
                     <span className="text-4xl pr-0.5">

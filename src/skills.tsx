@@ -52,6 +52,9 @@ const Skills = () => {
                 <ListItem
                     text="Big O Notation"
                 />
+                <ListItem
+                    text="Using APIs"
+                />
             </ul>
         </div>
     )
@@ -94,6 +97,11 @@ const Tech = () => {
                     img_src={nextlogo}
                     text="Next JS/TS"
                 />
+                <a href="https://animejs.com/">
+                    <ListItem
+                        text="Anime.js"
+                    />
+                </a>
                 <ListItem
                     text="...And more to come!"
                 />
