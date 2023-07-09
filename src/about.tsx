@@ -23,7 +23,7 @@ const Other = () => {
                     </span>Music:
                     I've been very passionate
                     about all kinds of music ever since I was little and know quite a lot about it.
-                    I also produce it sometimes.
+                    I also produce it. See (put link to music site here)
                 </li>
                 <li className="no-hover">
                     <span className="text-4xl pr-0.5">
@@ -121,10 +121,16 @@ const Photos = () => {
                 </li>
                 <li>
                     <figure>
-                        <video controls src={require("./assets/solo.mp4")}
+                        <audio controls>
+                            <source src={require("./assets/Artificial Eden.wav")}
+                                type="audio/mpeg" />
+                        </audio>
+                        <img src={require("./assets/AEdev.png")}
+                            alt="my binary tattoo"
                             className="rounded-xl" />
                         <figcaption>
-                            🎸 (Yes that's a 9 string guitar, it's a metal thing)
+                            My current favorite song I've made,
+                            Artificial Eden off the (in progress) album of the same name
                         </figcaption>
                     </figure>
                 </li>
