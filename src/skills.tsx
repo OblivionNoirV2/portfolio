@@ -16,8 +16,8 @@ interface ListItemProps {
 }
 const ListItem: React.FC<ListItemProps> = ({ img_src, text }) => {
     return (
-        <li>
-            <span className="text-4xl pr-[1rem] -mt-2">
+        <li className="">
+            <span className="text-2xl pr-[1rem]">
                 &#127800;
                 {text}
             </span>

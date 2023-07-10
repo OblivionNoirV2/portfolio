@@ -23,7 +23,7 @@ body::before {
 body {
   position: relative;
   min-height: 100vh;
-  background-image: url("assets/glasssakurav2.png");
+  background-image: url("assets/potentialbg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -68,8 +68,8 @@ a:active {
 }
 
 .tech-li>li>img {
-  width: 7rem;
-  height: 7rem;
+  width: 4rem;
+  height: 4rem;
   margin-left: 1rem;
   border-radius: 5%;
 }
