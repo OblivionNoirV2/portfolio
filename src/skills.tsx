@@ -50,6 +50,9 @@ const Skills = () => {
                     text="Linux(Ubuntu)"
                 />
                 <ListItem
+                    text="Windows Linux Subsystem(WSL)"
+                />
+                <ListItem
                     text="Big O Notation"
                 />
                 <ListItem
